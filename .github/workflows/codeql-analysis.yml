@@ -65,10 +65,12 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
-    
+      with:
+        output: results
+            
     - name: Upload sarif as artifact
       uses: actions/upload-artifact@v2
       with:
-        path: ../results
+        path: results
         
         
