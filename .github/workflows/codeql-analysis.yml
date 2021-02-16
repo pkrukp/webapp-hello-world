@@ -72,7 +72,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         path: results
-        name: sarif_results
+        name: codeql_sarif_results
         
                 
         
