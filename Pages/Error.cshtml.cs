@@ -28,5 +28,11 @@ namespace webapp_hello_world.Pages
         {
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
         }
+
+        
+        public void OnPut()
+        {
+            
+        }
     }
 }
