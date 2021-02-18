@@ -849,30 +849,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "ruleId": "OWASP2017.A5.UAA",
-                    "level": "warning",
-                    "message": {
-                        "text": "Apply an authorization attribute on the IndexModel class"
-                    },
-                    "partialFingerprints": {
-                        "lineHash": "212529738"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "Pages/Index.cshtml.cs"
-                                },
-                                "region": {
-                                    "startLine": 11,
-                                    "startColumn": 18,
-                                    "endColumn": 28
-                                }
-                            }
-                        }
-                    ]
                 }
             ]
         }
