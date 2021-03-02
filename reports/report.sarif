@@ -29,7 +29,7 @@
                             }
                         },
                         {
-                            "id": "BRM.SFH",
+                            "id": "NEW_ID",
                             "shortDescription": {
                                 "text": "Always provide appropriate file header (copyright information, etc.)"
                             },
@@ -261,7 +261,7 @@
             },
             "results": [
                 {
-                    "ruleId": "BRM.SFH",
+                    "ruleId": "NEW_ID",
                     "level": "warning",
                     "message": {
                         "text": "Appropriate header was found neither at the beginning nor at the end of file."
