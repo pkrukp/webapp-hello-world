@@ -9,7 +9,27 @@
                     "semanticVersion": "1.0.0",
                     "rules": [
                         {
-                            "id": "RULE.ID.SINGLE.ALERT",
+                            "id": "BRM.MLL",
+                            "shortDescription": {
+                                "text": "Keep line length within predefined parameters"
+                            },
+                            "fullDescription": {
+                                "text": "Keep line length within predefined parameters [BRM.MLL]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "Keep line length within predefined parameters [BRM.MLL]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "Better Readability and Maintainability"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "BRM.SFH",
                             "shortDescription": {
                                 "text": "Always provide appropriate file header (copyright information, etc.)"
                             },
@@ -27,35 +47,244 @@
                                     "Better Readability and Maintainability"
                                 ]
                             }
+                        },
+                        {
+                            "id": "BRM.CMT.MSC",
+                            "shortDescription": {
+                                "text": "Members should be commented"
+                            },
+                            "fullDescription": {
+                                "text": "Members should be commented [BRM.CMT.MSC]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "Members should be commented [BRM.CMT.MSC]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "Better Readability and Maintainability",
+                                    "Commentaries"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "BRM.CMT.TSC",
+                            "shortDescription": {
+                                "text": "Types should be commented"
+                            },
+                            "fullDescription": {
+                                "text": "Types should be commented [BRM.CMT.TSC]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "Types should be commented [BRM.CMT.TSC]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "Better Readability and Maintainability",
+                                    "Commentaries"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CS.USO",
+                            "shortDescription": {
+                                "text": "Put using statements in alphabetical order"
+                            },
+                            "fullDescription": {
+                                "text": "Put using statements in alphabetical order [CS.USO]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "Put using statements in alphabetical order [CS.USO]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "C# only"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CS.BRM.KFATNC",
+                            "shortDescription": {
+                                "text": "Keep file and type names consistent"
+                            },
+                            "fullDescription": {
+                                "text": "Keep file and type names consistent [CS.BRM.KFATNC]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "Keep file and type names consistent [CS.BRM.KFATNC]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "C# only",
+                                    "Better Readability and Maintainability"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CS.INTER.ITT",
+                            "shortDescription": {
+                                "text": "String literals should be internationalized"
+                            },
+                            "fullDescription": {
+                                "text": "String literals should be internationalized [CS.INTER.ITT]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "String literals should be internationalized [CS.INTER.ITT]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "C# only",
+                                    "Internationalization"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "CWE.862.UAA",
+                            "shortDescription": {
+                                "text": "Use authorization attributes on pages and controllers"
+                            },
+                            "fullDescription": {
+                                "text": "Use authorization attributes on pages and controllers [CWE.862.UAA]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "Use authorization attributes on pages and controllers [CWE.862.UAA]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "Common Weakness Enumeration 4.3",
+                                    "CWE-862: Missing Authorization"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "A5.NEW",
+                            "shortDescription": {
+                                "text": "Use authorization attributes on pages and controllers"
+                            },
+                            "fullDescription": {
+                                "text": "Use authorization attributes on pages and controllers [OWASP2017.A5.UAA]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "Use authorization attributes on pages and controllers [OWASP2017.A5.UAA]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "OWASP Top 10 Most Critical Web Application Security Risks (2017)",
+                                    "A5-Broken Access Control"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "PB.EMPTYMETHODS",
+                            "shortDescription": {
+                                "text": "Avoid empty methods"
+                            },
+                            "fullDescription": {
+                                "text": "Avoid empty methods [PB.EMPTYMETHODS]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "Avoid empty methods [PB.EMPTYMETHODS]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "Possible Bugs"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "PCIDSS32.658.UAA",
+                            "shortDescription": {
+                                "text": "Use authorization attributes on pages and controllers"
+                            },
+                            "fullDescription": {
+                                "text": "Use authorization attributes on pages and controllers [PCIDSS32.658.UAA]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "Use authorization attributes on pages and controllers [PCIDSS32.658.UAA]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "Payment Card Industry Data Security Standard 3.2",
+                                    "6.5.8 Improper access control"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "SEC.WEB.UAA",
+                            "shortDescription": {
+                                "text": "Use authorization attributes on pages and controllers"
+                            },
+                            "fullDescription": {
+                                "text": "Use authorization attributes on pages and controllers [SEC.WEB.UAA]"
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "help": {
+                                "text": "Use authorization attributes on pages and controllers [SEC.WEB.UAA]"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "Security Inspection",
+                                    "Web Security"
+                                ]
+                            }
                         }
                     ]
                 }
             },
             "results": [
                 {
-                    "ruleId": "RULE.ID.SINGLE.ALERT",
+                    "ruleId": "A5.NEW",
                     "level": "warning",
                     "message": {
-                        "text": "Appropriate header was found neither at the beginning nor at the end of file."
+                        "text": "Apply an authorization attribute on the IndexModel class"
                     },
                     "partialFingerprints": {
-                        "lineHash": "526639152"
+                        "lineHash": "212529738"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "Program.cs"
+                                    "uri": "Pages/Index.cshtml.cs"
                                 },
                                 "region": {
-                                    "startLine": 1,
-                                    "startColumn": 1
+                                    "startLine": 11,
+                                    "startColumn": 18,
+                                    "endColumn": 28
                                 }
                             }
                         }
                     ]
                 }
-           ]
+            ]
         }
     ]
 }
