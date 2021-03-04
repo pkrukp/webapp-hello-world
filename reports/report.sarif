@@ -9,6 +9,27 @@
                     "semanticVersion": "2021.1.0",
                     "rules": [
                         {
+                            "id": "RULE.NEW1",
+                            "shortDescription": {
+                                "text": "New Rule 1"
+                            },
+                            "fullDescription": {
+                                "text": "New Rule 1"
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            },
+                            "help": {
+                                "text": "New Rule 1"
+                            },
+                            "properties": {
+                                "tags": [
+                                    "Flow Analysis",
+                                    "Exceptions"
+                                ]
+                            }
+                        },
+                        {
                             "id": "BD.EXCEPT.NR",
                             "shortDescription": {
                                 "text": "Avoid NullReferenceException"
@@ -2304,6 +2325,30 @@
                     "level": "warning",
                     "message": {
                         "text": "Avoid empty methods"
+                    },
+                    "partialFingerprints": {
+                        "lineHash": "815635939"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "Pages/Privacy.cshtml.cs"
+                                },
+                                "region": {
+                                    "startLine": 20,
+                                    "startColumn": 21,
+                                    "endColumn": 26
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "RULE.NEW1",
+                    "level": "warning",
+                    "message": {
+                        "text": "Violation: NEW1"
                     },
                     "partialFingerprints": {
                         "lineHash": "815635939"
