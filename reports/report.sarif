@@ -2135,30 +2135,6 @@
                     ]
                 },
                 {
-                    "ruleId": "PB.EMPTYMETHODS",
-                    "level": "warning",
-                    "message": {
-                        "text": "Avoid empty methods"
-                    },
-                    "partialFingerprints": {
-                        "lineHash": "815635939"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "Pages/Index.cshtml.cs"
-                                },
-                                "region": {
-                                    "startLine": 20,
-                                    "startColumn": 21,
-                                    "endColumn": 26
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
                     "ruleId": "BRM.SFH",
                     "level": "warning",
                     "message": {
@@ -2294,30 +2270,6 @@
                                     "startLine": 15,
                                     "startColumn": 16,
                                     "endColumn": 28
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "ruleId": "PB.EMPTYMETHODS",
-                    "level": "warning",
-                    "message": {
-                        "text": "Avoid empty methods"
-                    },
-                    "partialFingerprints": {
-                        "lineHash": "815635939"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "Pages/Privacy.cshtml.cs"
-                                },
-                                "region": {
-                                    "startLine": 20,
-                                    "startColumn": 21,
-                                    "endColumn": 26
                                 }
                             }
                         }
