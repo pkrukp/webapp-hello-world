@@ -16,3 +16,5 @@ public class Ex3 {
         return 0;
     }
 }
+
+// just a test
