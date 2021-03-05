@@ -5,7 +5,7 @@
         {
             "tool": {
                 "driver": {
-                    "name": "dotTEST",
+                    "name": "dotTEST_Renamed",
                     "semanticVersion": "2021.1.0",
                     "rules": [
                         {
