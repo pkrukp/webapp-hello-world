@@ -1,0 +1,1100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ResultsSession buildId="2021-03-05" climode="true" execEnv="win32_x86_64" hasViols="true" id="1615452916675" lang="en_US" machine="SCORPION" prjModule="webapp-hello-world" project="" tag="${scontrol_branch}-win32_x86_64" time="2021-03-05T09:41:01+01:00" toolDispName="dotTEST" toolId="dottest" toolName="DTP Engine for .NET" toolVer="2021.1.0" user="pkruk">
+   <TestConfig machine="SCORPION" name="all_not_mapped" pseudoUrl="C:\ps\configs\all_not_mapped.properties" user="pkruk" />
+   <Authors>
+      <Author id="dev1" name="pkruk" />
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Code Duplication Parser" ver="10.5.1.20210222" />
+      <Analyzer id="com.parasoft.dottest.dupcode" name="Code Duplication Detector" ver="10.5.1.20210222" />
+      <Analyzer id="com.parasoft.dottest" name="Parasoft dotTEST" ver="10.5.1.167" />
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1" />
+   </VersionInfos>
+   <Goals tsks="50">
+      
+   </Goals>
+   <Scope>
+      <Repositories />
+      <Locations>
+         <Loc hash="591998010" locRef="1" projId="webapp-hello-world" projPath="/webapp-hello-world" project="webapp-hello-world" resProjPath="Ex1.cs" totLns="17" uri="file://SCORPION/C:/Users/pkruk/source/my-github/webapp-hello-world/Ex1.cs" />
+         <Loc hash="-466343805" locRef="2" projId="webapp-hello-world" projPath="/webapp-hello-world" project="webapp-hello-world" resProjPath="Ex2.cs" totLns="58" uri="file://SCORPION/C:/Users/pkruk/source/my-github/webapp-hello-world/Ex2.cs" />
+         <Loc hash="-117518605" locRef="3" projId="webapp-hello-world" projPath="/webapp-hello-world" project="webapp-hello-world" resProjPath="Ex3.cs" totLns="22" uri="file://SCORPION/C:/Users/pkruk/source/my-github/webapp-hello-world/Ex3.cs" />
+         <Loc hash="-931165736" locRef="4" projId="webapp-hello-world" projPath="/webapp-hello-world" project="webapp-hello-world" resProjPath="Program.cs" totLns="26" uri="file://SCORPION/C:/Users/pkruk/source/my-github/webapp-hello-world/Program.cs" />
+         <Loc hash="-115071264" locRef="5" projId="webapp-hello-world" projPath="/webapp-hello-world" project="webapp-hello-world" resProjPath="Startup.cs" totLns="56" uri="file://SCORPION/C:/Users/pkruk/source/my-github/webapp-hello-world/Startup.cs" />
+         <Loc hash="206116152" locRef="6" projId="webapp-hello-world" projPath="/webapp-hello-world" project="webapp-hello-world" resProjPath="Pages/Error.cshtml.cs" totLns="32" uri="file://SCORPION/C:/Users/pkruk/source/my-github/webapp-hello-world/Pages/Error.cshtml.cs" />
+         <Loc hash="-1382259625" locRef="7" projId="webapp-hello-world" projPath="/webapp-hello-world" project="webapp-hello-world" resProjPath="Pages/Index.cshtml.cs" totLns="25" uri="file://SCORPION/C:/Users/pkruk/source/my-github/webapp-hello-world/Pages/Index.cshtml.cs" />
+         <Loc hash="-85165395" locRef="8" projId="webapp-hello-world" projPath="/webapp-hello-world" project="webapp-hello-world" resProjPath="Pages/Privacy.cshtml.cs" totLns="24" uri="file://SCORPION/C:/Users/pkruk/source/my-github/webapp-hello-world/Pages/Privacy.cshtml.cs" />
+      </Locations>
+   </Scope>
+   
+  <SetupProblems>
+    <Problem msg="The test configuration contains the following deprecated rules, which will be removed in future releases:" sev="1" totErrs="9" type="RMC">
+      <ErrorList>
+        <Error val="The rule SEC.CDR has been deprecated and should be replaced with BD.RES.LEAKS in your test configuration." />
+        <Error val="The rule SPR.VPPD has been deprecated and should be replaced with SEC.VPPD in your test configuration." />
+        <Error val="The rule PB.CFSRLV has been deprecated and should be replaced with BD.RES.LEAKS in your test configuration." />
+        <Error val="The rule SEC.CDBC has been deprecated and should be replaced with BD.RES.LEAKS in your test configuration." />
+        <Error val="The rule SEC.CDRLV has been deprecated and should be replaced with BD.RES.LEAKS in your test configuration." />
+        <Error val="The rule GC.UFID has been deprecated and should be replaced with BD.RES.LEAKS in your test configuration." />
+        <Error val="The rule SEC.CDBCLV has been deprecated and should be replaced with BD.RES.LEAKS in your test configuration." />
+        <Error val="The rule OOM.FCSF has been deprecated and should be replaced with METRIC.NOMCIM in your test configuration." />
+        <Error val="The rule SPR.VPPDIMPL has been deprecated and should be replaced with SEC.VPPD in your test configuration." />
+      </ErrorList>
+    </Problem>
+    <Problem msg="webapp-hello-world" sev="1" totErrs="1" type="BUE">
+      <ErrorList>
+        <Error val="MS Code Analysis failed on webapp-hello-world" />
+      </ErrorList>
+    </Problem>
+    <Problem msg="Some static analysis rules are not supported for .NET Core/.NET Standard projects and were not executed during the analysis. &#xd;&#xa;See the dotTEST User Guide for the list of supported rules." sev="0" totErrs="0" type="InvalidSettings">
+      <ErrorList />
+    </Problem>
+  </SetupProblems>
+
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:36">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="8" checkedLns="260" id="webapp-hello-world" name="webapp-hello-world" qfixErrs="0" suppErrs="0" totErrs="75" totFiles="8" totLns="260" />
+      </Projects>
+      
+      
+      <Rules>
+         <CategoriesList>
+            <Category authTot="0;" authUrg="0;" desc="Collection Usage Guidelines" name="ARRU" rules="6" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Flow Analysis" name="BD" rules="47" total="0">
+               <Category authTot="0;" authUrg="0;" desc="API" name="BD.API" rules="2" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Possible Bugs" name="BD.PB" rules="16" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Resources" name="BD.RES" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Threads &amp; Synchronization" name="BD.TRS" rules="4" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Collections" name="BD.CO" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Security" name="BD.SECURITY" rules="21" total="0" />
+               <Category authTot="1;" authUrg="0;" desc="Exceptions" name="BD.EXCEPT" rules="2" total="1" />
+            </Category>
+            <Category authTot="25;" authUrg="22;" desc="Better Readability and Maintainability" name="BRM" rules="15" total="25">
+               <Category authTot="23;" authUrg="7;" desc="Commentaries" name="BRM.CMT" rules="2" total="23" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Microsoft Code Analysis rules" name="CA" rules="231" total="0" />
+            <Category authTot="3;" authUrg="3;" desc="Code Duplication Detection" name="CDD" rules="4" total="3" />
+            <Category authTot="0;" authUrg="0;" desc="CLS Compliance" name="CLS" rules="20" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Class Member Usage Guidelines" name="CMUG" rules="48" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Constructor Usage" name="CMUG.CU" rules="5" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Event Usage" name="CMUG.EVU" rules="16" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Property Usage" name="CMUG.PRU" rules="13" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Method Usage" name="CMUG.MU" rules="10" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Field Usage" name="CMUG.FU" rules="4" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="COM Guidelines" name="COM" rules="5" total="0" />
+            <Category authTot="5;" authUrg="5;" desc="C# only" name="CS" rules="67" total="5">
+               <Category authTot="0;" authUrg="0;" desc="Implementing Finalize and Dispose" name="CS.IFD" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Possible Exception" name="CS.PE" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Naming Guidelines" name="CS.NG" rules="1" total="0">
+                  <Category authTot="0;" authUrg="0;" desc="Variables Naming" name="CS.NG.VAR" rules="1" total="0" />
+               </Category>
+               <Category authTot="1;" authUrg="1;" desc="Metrics" name="CS.OOM" rules="2" total="1" />
+               <Category authTot="0;" authUrg="0;" desc="Possible Bugs" name="CS.PB" rules="25" total="0">
+                  <Category authTot="0;" authUrg="0;" desc="Useless Code" name="CS.PB.USC" rules="2" total="0" />
+               </Category>
+               <Category authTot="0;" authUrg="0;" desc="Security Inspection" name="CS.SEC" rules="3" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Enum Usage" name="CS.EU" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Class Member Usage Guidelines" name="CS.CMUG" rules="1" total="0">
+                  <Category authTot="0;" authUrg="0;" desc="Property Usage" name="CS.CMUG.PRU" rules="1" total="0" />
+               </Category>
+               <Category authTot="0;" authUrg="0;" desc="Threads &amp; Synchronization" name="CS.TRS" rules="3" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Serialization Guidelines" name="CS.SERIAL" rules="3" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Exceptions" name="CS.EXCEPT" rules="1" total="0" />
+               <Category authTot="5;" authUrg="5;" desc="Better Readability and Maintainability" name="CS.BRM" rules="16" total="5" />
+               <Category authTot="3;" authUrg="3;" desc="Internationalization" name="CS.INTER" rules="1" total="3" />
+               <Category authTot="0;" authUrg="0;" desc="Code Duplication Detection" name="CS.CDD" rules="1" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Casting Types Guidelines" name="CT" rules="4" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Error Raising and Handling" name="ERR" rules="4" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Exceptions" name="EXCEPT" rules="4" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Garbage Collector" name="GC" rules="4" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Implementing Finalize and Dispose" name="IFD" rules="19" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Internationalization" name="INTER" rules="2" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Naming Guidelines" name="NG" rules="119" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Well Known Acronyms" name="NG.ACRO" rules="11" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Capitalization Styles" name="NG.CAPSTY" rules="28" total="0">
+                  <Category authTot="0;" authUrg="0;" desc="Pascal Case for Names" name="NG.CAPSTY.PASCAL" rules="13" total="0" />
+                  <Category authTot="0;" authUrg="0;" desc="Camel Case for Names" name="NG.CAPSTY.CAMEL" rules="2" total="0" />
+                  <Category authTot="0;" authUrg="0;" desc="Upper Case for Names" name="NG.CAPSTY.UPPER" rules="13" total="0" />
+               </Category>
+               <Category authTot="0;" authUrg="0;" desc="Avoid mysterious acronyms" name="NG.MYST" rules="11" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Parameter Naming" name="NG.PN" rules="2" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Namespace Naming" name="NG.NN" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Property Naming" name="NG.PRN" rules="2" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Case Sensitivity" name="NG.CASE" rules="5" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Interface Naming" name="NG.IN" rules="2" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Field Naming" name="NG.FN" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Abbreviations" name="NG.ABBR" rules="11" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Class Naming" name="NG.CN" rules="5" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Word Choice" name="NG.WC" rules="16" total="0">
+                  <Category authTot="0;" authUrg="0;" desc="Common Names" name="NG.WC.COMMON" rules="5" total="0" />
+                  <Category authTot="0;" authUrg="0;" desc="Conflicting with Keywords" name="NG.WC.KEYWORD" rules="11" total="0" />
+               </Category>
+               <Category authTot="0;" authUrg="0;" desc="Attribute Naming" name="NG.AN" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Avoiding Type Name Confusion" name="NG.ATNC" rules="13" total="0">
+                  <Category authTot="0;" authUrg="0;" desc="Use universal type names" name="NG.ATNC.UUTN" rules="11" total="0" />
+                  <Category authTot="0;" authUrg="0;" desc="Avoid language-specific names" name="NG.ATNC.ALSN" rules="2" total="0" />
+               </Category>
+               <Category authTot="0;" authUrg="0;" desc="Enumeration Type Naming" name="NG.ETN" rules="3" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Static Field Naming" name="NG.SFN" rules="2" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Event Naming" name="NG.EVN" rules="5" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Object Oriented Metrics" name="OOM" rules="12" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Operator Overloading Usage Guidelines" name="OPU" rules="20" total="0" />
+            <Category authTot="2;" authUrg="0;" desc="Possible Bugs" name="PB" rules="30" total="2">
+               <Category authTot="0;" authUrg="0;" desc="Incomplete Implementation" name="PB.II" rules="2" total="0" />
+            </Category>
+            <Category authTot="4;" authUrg="4;" desc="Security Inspection" name="SEC" rules="57" total="4">
+               <Category authTot="0;" authUrg="0;" desc="XML External Entities" name="SEC.XXE" rules="1" total="0" />
+               <Category authTot="3;" authUrg="0;" desc="Web Security" name="SEC.WEB" rules="11" total="3" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Serialization Guidelines" name="SERIAL" rules="14" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Xml Serialization Guidelines" name="SERIAL.XML" rules="8" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Security Policy Rules" name="SPR" rules="6" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Threads &amp; Synchronization" name="TRS" rules="2" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="Type Usage Guidelines" name="TUG" rules="21" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Nested Type Usage" name="TUG.NTU" rules="2" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Sealed Class Usage" name="TUG.SCU" rules="2" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Base Class Usage" name="TUG.BCU" rules="3" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Enum Usage" name="TUG.EU" rules="6" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Attribute Usage" name="TUG.AU" rules="5" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Derived Class Usage" name="TUG.DCU" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Struct Usage" name="TUG.SU" rules="2" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Visual Basic Only" name="VB" rules="4" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Implementing Finalize and Dispose" name="VB.IFD" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Possible Bugs" name="VB.PB" rules="1" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="Better Readability and Maintainability" name="VB.BRM" rules="2" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Windows Presentation Foundation" name="WPF" rules="2" total="0" />
+         </CategoriesList>
+         <RulesList>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="ARRU" desc="Do not use non-generic collection for class fields" id="ARRU.DNUGCI" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="ARRU" desc="Do not use non-generic collection for making custom collection class" id="ARRU.DNUNGIF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="ARRU" desc="Do not declare local variables of non-generic collections types" id="ARRU.NGLVD" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="ARRU" desc="Do not use non-generic collection for local variable" id="ARRU.NNGCLC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="ARRU" desc="Collection should implement ICollection&lt;T>" id="ARRU.CSII" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="ARRU" desc="Avoid indexer in non-collection class" id="ARRU.AINC" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.API" desc="Make sure implementation of Object.Equals(Object) properly handles null values" id="BD.API.EQNULL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.API" desc="Make sure implementation of Object.Equals(Object) is reflexive" id="BD.API.EQREFL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.CO" desc="Do not modify collection while iterating over it" id="BD.CO.ITMOD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.EXCEPT" desc="Avoid ArgumentNullException" id="BD.EXCEPT.AN" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="0;" cat="BD.EXCEPT" desc="Avoid NullReferenceException" id="BD.EXCEPT.NR" sev="1" total="1" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Ensure that invoke parameter type correspond to delegate definition" id="BD.PB.EVIPT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid use before explicit initialization" id="BD.PB.NOTEXPLINIT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Do not base equality on the equality of hash codes" id="BD.PB.UGHC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid division by zero" id="BD.PB.ZERO" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid accessing arrays out of bounds" id="BD.PB.ARRAY" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid conditions that always evaluate to the same value" id="BD.PB.CC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Consistently check the returned value of non-void methods" id="BD.PB.CHECKRET" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid dereferencing before checking for null" id="BD.PB.DEREF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Do not use disposed resources" id="BD.PB.DISP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Do not use managed resources in finalizers" id="BD.PB.FIN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid integer overflows" id="BD.PB.INTOVERF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid overwriting method parameters before each use" id="BD.PB.POVR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Do not append null value to strings" id="BD.PB.STRNULL" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid switch with unreachable branches" id="BD.PB.SWITCH" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Ensure proper usage of StringBuilder objects" id="BD.PB.SBONE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid unused values" id="BD.PB.VOVR" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.RES" desc="Ensure resources are deallocated" id="BD.RES.LEAKS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Prevent untrusted inputs that may affect authorization" id="BD.SECURITY.AUTH" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Prevent security vulnerability (custom rule)" id="BD.SECURITY.CUSTOM" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Always revert the context of an impersonated user to the previous identity" id="BD.SECURITY.IDENTITY" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Prevent exposure of sensitive data" id="BD.SECURITY.SENS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Validate potentially tainted data before it is used to determine the size of memory allocation" id="BD.SECURITY.TDALLOC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against command injection" id="BD.SECURITY.TDCMD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Validate potentially tainted data before it is used in methods that generate code" id="BD.SECURITY.TDCODE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against file name injection" id="BD.SECURITY.TDFNAMES" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Exclude unsanitized user input from format strings" id="BD.SECURITY.TDINPUT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against LDAP injection" id="BD.SECURITY.TDLDAP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against log forging" id="BD.SECURITY.TDLOG" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against network resource injection" id="BD.SECURITY.TDNET" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against HTTP response splitting" id="BD.SECURITY.TDRESP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against Reflection injection" id="BD.SECURITY.TDRFL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against SQL query injection" id="BD.SECURITY.TDSQL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against SQL connection injection" id="BD.SECURITY.TDSQLC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against XSS vulnerabilities" id="BD.SECURITY.TDXSS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Ensure that a random salt is used" id="BD.SECURITY.SALT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Avoid passing sensitive data to functions that write to log files" id="BD.SECURITY.SENSLOG" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Protect against using unprotected credentials" id="BD.SECURITY.TDPASSWD" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.SECURITY" desc="Use object with secure XmlResolver property" id="BD.SECURITY.USXRS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.TRS" desc="Do not abandon unreleased mutexes" id="BD.TRS.MUTEX" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.TRS" desc="Do not acquire locks in different order" id="BD.TRS.ORDER" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.TRS" desc="Variable should be used in context of single critical section" id="BD.TRS.DIFCS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.TRS" desc="Do not use an instance lock to protect shared static data" id="BD.TRS.INSTLOCK" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Avoid hiding methods from base classes" id="BRM.HBCM" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Avoid hiding properties from base classes" id="BRM.HBCP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Always provide names for threads" id="BRM.APNFT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Use 'L' instead of 'l' to express 'long' integer constants" id="BRM.LINUPPERCASE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Avoid 'protected' access for members of 'sealed' classes" id="BRM.APRIS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Use positive instead of negative terms for naming properies/methods that return a 'boolean'" id="BRM.BOOLNEGNAME" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Use plural name for a property of type collection/array and avoid collection/array in the name" id="BRM.COLLPLURALNAME" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Use 'Is...'  only for naming methods that return a &quot;boolean&quot;" id="BRM.ISPREFIX" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="3;" authUrg="0;" cat="BRM" desc="Keep line length within predefined parameters" id="BRM.MLL" sev="3" total="3" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Do not declare multiple Main methods in a single assembly" id="BRM.MULTIPLEMAIN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="8;" authUrg="8;" cat="BRM" desc="Always provide appropriate file header (copyright information, etc.)" id="BRM.SFH" sev="3" total="8" />
+            <Rule analyzer="com.parasoft.dottest" authTot="14;" authUrg="14;" cat="BRM" desc="Use spaces for tabs/indentation" id="BRM.SFT" sev="3" total="14" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Avoid class, struct, or interface names which are more than 14 characters long" id="BRM.LONGNAMES" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="14;" authUrg="3;" cat="BRM.CMT" desc="Members should be commented" id="BRM.CMT.MSC" sev="4" total="14" />
+            <Rule analyzer="com.parasoft.dottest" authTot="9;" authUrg="4;" cat="BRM.CMT" desc="Types should be commented" id="BRM.CMT.TSC" sev="4" total="9" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not declare virtual members in sealed types" id="CA.1048" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Validate arguments of public methods" id="CA.1062" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Implement IDisposable correctly" id="CA.1063" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not raise exceptions in unexpected locations" id="CA.1065" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid duplicate accelerators" id="CA.1301" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not hardcode locale specific strings" id="CA.1302" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="P/Invokes should not be visible" id="CA.1401" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Call GetLastError immediately after P/Invoke" id="CA.1404" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not ignore method results" id="CA.1806" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Call GC.SuppressFinalize correctly" id="CA.1816" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="P/Invoke declarations should be portable" id="CA.1901" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use only API from targeted framework" id="CA.1903" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid calling problematic methods" id="CA.2001" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not lock on objects with weak identity" id="CA.2002" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Review SQL queries for security vulnerabilities" id="CA.2100" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Specify marshaling for P/Invoke string arguments" id="CA.2101" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Review imperative security" id="CA.2103" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Secure asserts" id="CA.2106" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Review deny and permit only usage" id="CA.2107" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Review declarative security on value types" id="CA.2108" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Review visible event handlers" id="CA.2109" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Secured types should not expose fields" id="CA.2112" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Method security should be a superset of type" id="CA.2114" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Call GC.KeepAlive when using native resources" id="CA.2115" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="APTCA methods should only call APTCA methods" id="CA.2116" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="APTCA types should only extend APTCA base types" id="CA.2117" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Review SuppressUnmanagedCodeSecurityAttribute usage" id="CA.2118" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Secure serialization constructors" id="CA.2120" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not indirectly expose methods with link demands" id="CA.2122" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Override link demands should be identical to base" id="CA.2123" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Wrap vulnerable finally clauses in outer try" id="CA.2124" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Type link demands require inheritance demands" id="CA.2126" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Security critical constants should be transparent" id="CA.2130" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Security critical types may not participate in type equivalence" id="CA.2131" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Default constructors must be at least as critical as base type default constructors" id="CA.2132" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Delegates must bind to methods with consistent transparency" id="CA.2133" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Methods must keep consistent transparency when overriding base methods" id="CA.2134" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Level 2 assemblies should not contain LinkDemands" id="CA.2135" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Members should not have conflicting transparency annotations" id="CA.2136" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent methods must contain only verifiable IL" id="CA.2137" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute" id="CA.2138" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent methods may not use the HandleProcessCorruptingExceptions attribute" id="CA.2139" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent code must not reference security critical items" id="CA.2140" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent methods must not satisfy LinkDemands" id="CA.2141" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent code should not be protected with LinkDemands" id="CA.2142" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent methods should not use security demands" id="CA.2143" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent code should not load assemblies from byte arrays" id="CA.2144" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute" id="CA.2145" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Types must be at least as critical as their base types and interfaces" id="CA.2146" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent code may not use security asserts" id="CA.2147" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Transparent methods must not call into native code" id="CA.2149" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not raise reserved exception types" id="CA.2201" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not dispose objects multiple times" id="CA.2202" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Assemblies should have valid strong names" id="CA.2210" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not mark serviced components with WebMethod" id="CA.2212" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not call overridable methods in constructors" id="CA.2214" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Disposable types should declare finalizer" id="CA.2216" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Override GetHashCode on overriding Equals" id="CA.2218" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not raise exceptions in exception clauses" id="CA.2219" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Finalizers should be protected" id="CA.2221" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not decrease inherited member visibility" id="CA.2222" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not ship unreleased resource formats" id="CA.2228" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark Windows Forms entry points with STAThread" id="CA.2232" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Implement serialization methods correctly" id="CA.2238" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Implement ISerializable correctly" id="CA.2240" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Provide correct arguments to formatting methods" id="CA.2241" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Test for NaN correctly" id="CA.2242" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="P/Invoke declarations should not be safe-critical" id="CA.5122" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Declare event handlers correctly" id="CA.1009" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark attributes with AttributeUsageAttribute" id="CA.1018" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Override methods on comparable types" id="CA.1036" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not overload operator equals on reference types" id="CA.1046" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Declare types in namespaces" id="CA.1050" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Specify MessageBoxOptions" id="CA.1300" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Specify IFormatProvider" id="CA.1305" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Specify StringComparison" id="CA.1307" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="P/Invoke entry points should exist" id="CA.1400" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not use AutoDual ClassInterfaceType" id="CA.1408" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark boolean P/Invoke arguments with MarshalAs" id="CA.1414" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Declare P/Invokes correctly" id="CA.1415" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid excessive complexity" id="CA.1502" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not use idle process priority" id="CA.1600" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not use timers that prevent power state changes" id="CA.1601" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not cast unnecessarily" id="CA.1800" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Initialize reference type static fields inline" id="CA.1810" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid uncalled private code" id="CA.1811" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Prefer jagged arrays over multidimensional" id="CA.1814" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Test for empty strings using string length" id="CA.1820" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Remove empty finalizers" id="CA.1821" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark members as static" id="CA.1822" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid unused private fields" id="CA.1823" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Dispose objects before losing scope" id="CA.2000" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not treat fibers as threads" id="CA.2003" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Remove calls to GC.KeepAlive" id="CA.2004" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use SafeHandle to encapsulate native resources" id="CA.2006" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Rethrow to preserve stack details" id="CA.2200" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use managed equivalents of Win32 API" id="CA.2205" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Instantiate argument exceptions correctly" id="CA.2208" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Non-constant fields should not be visible" id="CA.2211" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Disposable fields should be disposed" id="CA.2213" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Dispose methods should call base class dispose" id="CA.2215" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not mark enums with FlagsAttribute" id="CA.2217" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Finalizers should call base class finalizer" id="CA.2220" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Members should differ by more than return type" id="CA.2223" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Override Equals on overloading operator equals" id="CA.2224" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Operators should have symmetrical overloads" id="CA.2226" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Collection properties should be read only" id="CA.2227" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Implement serialization constructors" id="CA.2229" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Overload operator equals on overriding ValueType.Equals" id="CA.2231" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Operations should not overflow" id="CA.2233" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark all non-serializable fields" id="CA.2235" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Call base class methods on ISerializable types" id="CA.2236" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not declare static members on generic types" id="CA.1000" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not expose generic lists" id="CA.1002" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use generic event handler instances" id="CA.1003" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Generic methods should provide type parameter" id="CA.1004" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid excessive parameters on generic types" id="CA.1005" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not nest generic types in member signatures" id="CA.1006" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use generics where appropriate" id="CA.1007" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Enums should have zero value" id="CA.1008" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Consider passing base types as parameters" id="CA.1011" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark assemblies with CLSCompliantAttribute" id="CA.1014" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark assemblies with AssemblyVersionAttribute" id="CA.1016" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark assemblies with ComVisibleAttribute" id="CA.1017" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Define accessors for attribute arguments" id="CA.1019" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid namespaces with few types" id="CA.1020" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Replace repetitive arguments with params array" id="CA.1025" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Default parameters should not be used" id="CA.1026" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark enums with FlagsAttribute" id="CA.1027" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not catch general exception types" id="CA.1031" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Interface methods should be callable by child types" id="CA.1033" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="ICollection implementations have strongly typed members" id="CA.1035" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Enumerators should be strongly typed" id="CA.1038" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Lists are strongly typed" id="CA.1039" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid empty interfaces" id="CA.1040" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use integral or string argument for indexers" id="CA.1043" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not pass types by reference" id="CA.1045" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not declare protected members in sealed types" id="CA.1047" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not declare visible instance fields" id="CA.1051" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Static holder types should be sealed" id="CA.1052" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Static holder types should not have constructors" id="CA.1053" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Types should not extend certain base types" id="CA.1058" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Members should not expose certain concrete types" id="CA.1059" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Move P/Invokes to NativeMethods class" id="CA.1060" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not hide base class methods" id="CA.1061" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Exceptions should be public" id="CA.1064" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not pass literals as localized parameters" id="CA.1303" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Specify CultureInfo" id="CA.1304" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Set locale for data types" id="CA.1306" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Normalize strings to uppercase" id="CA.1308" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid overloads in COM visible interfaces" id="CA.1402" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Auto layout types should not be COM visible" id="CA.1403" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="COM visible type base types should be COM visible" id="CA.1405" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid Int64 arguments for Visual Basic 6 clients" id="CA.1406" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid static members in COM visible types" id="CA.1407" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="COM visible types should be creatable" id="CA.1409" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="COM registration methods should be matched" id="CA.1410" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="COM registration methods should not be visible" id="CA.1411" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark ComSource interfaces as IDispatch" id="CA.1412" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid non-public fields in COM visible value types" id="CA.1413" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Variable names should not match field names" id="CA.1500" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid excessive inheritance" id="CA.1501" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Review misleading field names" id="CA.1504" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid unmaintainable code" id="CA.1505" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid excessive class coupling" id="CA.1506" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Identifiers should not match keywords" id="CA.1716" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Type names should not match namespaces" id="CA.1724" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Parameter names should match base declaration" id="CA.1725" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Review unused parameters" id="CA.1801" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use literals where appropriate" id="CA.1802" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Remove unused locals" id="CA.1804" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid uninstantiated internal classes" id="CA.1812" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid unsealed attributes" id="CA.1813" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Override equals and operator equals on value types" id="CA.1815" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Properties should not return arrays" id="CA.1819" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Value type fields should be portable" id="CA.1900" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Catch non-CLSCompliant exceptions in general handlers" id="CA.2102" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not declare read only mutable reference types" id="CA.2104" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Array fields should not be read only" id="CA.2105" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Pointers should not be visible" id="CA.2111" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Seal methods that satisfy private interfaces" id="CA.2119" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Static constructors should be private" id="CA.2121" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Initialize value type static fields inline" id="CA.2207" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use params for variable arguments" id="CA.2230" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Pass System.Uri objects instead of strings" id="CA.2234" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark ISerializable types with SerializableAttribute" id="CA.2237" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Provide deserialization methods for optional fields" id="CA.2239" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Types that own disposable fields should be disposable" id="CA.1001" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Collections should implement generic interface" id="CA.1010" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Abstract types should not have constructors" id="CA.1012" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid out parameters" id="CA.1021" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use properties where appropriate" id="CA.1024" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Enum storage should be Int32" id="CA.1028" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use events where appropriate" id="CA.1030" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Implement standard exception constructors" id="CA.1032" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Nested types should not be visible" id="CA.1034" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Provide ObsoleteAttribute message" id="CA.1041" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Types that own native resources should be disposable" id="CA.1049" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="URI parameters should not be strings" id="CA.1054" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="URI return values should not be strings" id="CA.1055" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="URI properties should not be strings" id="CA.1056" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="String URI overloads call System.Uri overloads" id="CA.1057" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use ordinal StringComparison" id="CA.1309" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Resource string compound words should be cased correctly" id="CA.1701" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Compound words should be cased correctly" id="CA.1702" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Resource strings should be spelled correctly" id="CA.1703" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Identifiers should be spelled correctly" id="CA.1704" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Identifiers should not contain underscores" id="CA.1707" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Identifiers should differ by more than case" id="CA.1708" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Identifiers should be cased correctly" id="CA.1709" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Identifiers should have correct suffix" id="CA.1710" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Identifiers should not have incorrect suffix" id="CA.1711" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not prefix enum values with type name" id="CA.1712" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Flags enums should have plural names" id="CA.1714" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Identifiers should have correct prefix" id="CA.1715" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Only FlagsAttribute enums should have plural names" id="CA.1717" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Parameter names should not match member names" id="CA.1719" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Identifiers should not contain type names" id="CA.1720" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Property names should not match get methods" id="CA.1721" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Identifiers should not have incorrect prefix" id="CA.1722" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Use preferred terms" id="CA.1726" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Avoid excessive locals" id="CA.1809" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Mark assemblies with NeutralResourcesLanguageAttribute" id="CA.1824" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Literals should be spelled correctly" id="CA.2204" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Operator overloads have named alternates" id="CA.2225" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Attribute string literals should parse correctly" id="CA.2243" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Overload operator equals on overloading add and subtract" id="CA.1013" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Indexers should not be multidimensional" id="CA.1023" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Properties should not be write only" id="CA.1044" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Do not name enum values 'Reserved'" id="CA.1700" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CA" desc="Events should not have before or after prefix" id="CA.1713" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.xtest.dupcode.parser" authTot="1;" authUrg="1;" cat="CDD" desc="Avoid method duplication" id="CDD.DUPM" sev="2" total="1" />
+            <Rule analyzer="com.parasoft.xtest.dupcode.parser" authTot="1;" authUrg="1;" cat="CDD" desc="Avoid types duplication" id="CDD.DUPT" sev="2" total="1" />
+            <Rule analyzer="com.parasoft.xtest.dupcode.parser" authTot="1;" authUrg="1;" cat="CDD" desc="Avoid code duplication" id="CDD.DUPC" sev="3" total="1" />
+            <Rule analyzer="com.parasoft.xtest.dupcode.parser" authTot="0;" authUrg="0;" cat="CDD" desc="Avoid string literal duplication" id="CDD.DUPS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Provide the same accessibility for the property and its accessors" id="CLS.ACAC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Use get_ and set_ prefixes while naming accessor names of a property" id="CLS.ACNM" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Make array dimensions CLS-compliant" id="CLS.ARRD" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Provide alternate methods for conversion if you provide conversion operators" id="CLS.CONV" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Literal static fields of an enum must be the same type as the type of the enum itself" id="CLS.ENFI" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Make the underlying type of enum an inegral type" id="CLS.ENTY" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Do not overload events in a class or struct" id="CLS.EVOL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Use only types derived from System.Delegate for event types" id="CLS.EVTY" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Avoid overloading of fields" id="CLS.FIOL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Do not use global fields and methods" id="CLS.GLBL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Use unique names for members of a class unless the members are overloaded" id="CLS.IDUN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Avoid members whose types are less visible than the members themselves" id="CLS.MTV" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Do not use operator overloading if you want to be CLS compliant" id="CLS.NOOO" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Do not use pointer types if you want to be CLS-compliant" id="CLS.NOPT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Use only CLS-compliant primitive types" id="CLS.PRMT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Do not define properties with the same name and different return types" id="CLS.PROL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Avoid using typed references" id="CLS.TYPR" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Make the names of the paremeters unique" id="CLS.UPN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CLS" desc="Use unique names for types if you want to be CLS-compliant" id="CLS.UTN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.CU" desc="Avoid throwing exceptions from static constructors" id="CMUG.CU.ATES" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.CU" desc="Use a consistent naming pattern for constructor overloads" id="CMUG.CU.CNPC" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.CU" desc="Avoid expensive constructor" id="CMUG.CU.AEC" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.CU" desc="Avoid empty struct (Structure in Visual Basic) constructor" id="CMUG.CU.AES" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.CU" desc="Use constructor parameters to set properties" id="CMUG.CU.CPEP" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Avoid never listened private events" id="CMUG.EVU.ANLPE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Avoid never raised events" id="CMUG.EVU.ANRE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Do not return values from events" id="CMUG.EVU.DNRVFE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Unsubscribe from event" id="CMUG.EVU.UFE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Event argument classes should extend System.EventArgs" id="CMUG.EVU.ECEE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Events should accept exactly two arguments" id="CMUG.EVU.ESATA" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Events should provide object sender" id="CMUG.EVU.ESPSO" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="OnEvent methods should be protected" id="CMUG.EVU.OESP" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="OnEvent method should be virtual and not sealed" id="CMUG.EVU.OESV" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Provide OnEvent method for every event" id="CMUG.EVU.POEM" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Use generic event handlers" id="CMUG.EVU.UGEH" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Avoid Hungarian notation for events" id="CMUG.EVU.AHNE" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Avoid too many events per class" id="CMUG.EVU.ATME" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Review never raised inherited events" id="CMUG.EVU.RNRIE" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Consider method calls instead of private events" id="CMUG.EVU.CMCIPE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Name event accessors 'add' and 'remove'" id="CMUG.EVU.NEAR" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.FU" desc="Avoid unused private fields" id="CMUG.FU.AUPF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.FU" desc="Avoid constant properties" id="CMUG.FU.ACP" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.FU" desc="Fields access modifiers should keep type hermetic" id="CMUG.FU.FAMTH" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.FU" desc="Avoid Hungarian notation for instance fields" id="CMUG.FU.AHNF" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Avoid parameter swapping when overriding or implementing methods" id="CMUG.MU.APSM" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Ensure that method return values are used" id="CMUG.MU.RETVAL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Avoid unused private methods" id="CMUG.MU.AUPM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Avoid default arguments" id="CMUG.MU.ADAR" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Use specialized parameter overloads only if specialized handling is used" id="CMUG.MU.SCPO" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Do not use value types for returning values from methods or properties" id="CMUG.MU.VALRETURN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Avoid Hungarian notation for methods" id="CMUG.MU.AHNM" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Use a consistent naming pattern for method overloads" id="CMUG.MU.CNPM" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Make only the most complete overload overridable" id="CMUG.MU.MCOO" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Avoid using VarArgs convention" id="CMUG.MU.AVAR" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Avoid unused private property accessors" id="CMUG.PRU.AUPPA" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Avoid array properties" id="CMUG.PRU.AAP" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Avoid using expensive property accessors" id="CMUG.PRU.AEPA" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Declare properties in classes that derive from classes using nHibernate as virtual" id="CMUG.PRU.DPAV" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Avoid identical property and type names" id="CMUG.PRU.AIPN" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Implement ISupportInitialize for related properties" id="CMUG.PRU.IISI" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Use properties instead of having explicit get/set methods" id="CMUG.PRU.PIGSM" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Avoid using write-only properties" id="CMUG.PRU.AWOP" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Name indexer 'Item'" id="CMUG.PRU.NII" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Define only one indexed property" id="CMUG.PRU.OOIP" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Provide PropertyChanged event for components" id="CMUG.PRU.PPCD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Provide PropertyChanging event for components" id="CMUG.PRU.PPCG" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.PRU" desc="Provide RaisePropertyChanged method for components" id="CMUG.PRU.PRPC" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="COM" desc="Avoid COM visible parametrized constructors" id="COM.ACVPC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="COM" desc="Avoid COM visible static (Shared in Visual Basic) methods" id="COM.ACVS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="COM" desc="Ensure disposable types are marshaled by reference" id="COM.DTMR" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="COM" desc="Specify ComVisibleAttribute on assembly" id="COM.SCVA" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="COM" desc="Ensure system resource types are marshaled by reference" id="COM.SRTMR" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS" desc="Avoid multiple classes or interfaces in a single file" id="CS.MCI" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS" desc="Avoid using very large methods" id="CS.MLC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS" desc="Use foreach loops instead of for loops" id="CS.PFEL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS" desc="Prefer readonly to const" id="CS.PROTC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS" desc="Avoid &quot;switch&quot; statements with many &quot;case&quot; statements" id="CS.SMC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="5;" authUrg="5;" cat="CS" desc="Put using statements in alphabetical order" id="CS.USO" sev="4" total="5" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS" desc="Cast only simple expressions" id="CS.SC" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Avoid checked, unchecked, fixed and unsafe statements with empty bodies" id="CS.BRM.CPEB" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Avoid initialization statements with empty bodies" id="CS.BRM.IEB" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Avoid 'is' before 'as'" id="CS.BRM.AIBA" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Avoid block statements with empty bodies" id="CS.BRM.BEB" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Always enclose if and else bodies with curly braces" id="CS.BRM.CCB" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Use string.Empty for empty strings" id="CS.BRM.ES" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Always enclose iteration statements bodies with curly braces" id="CS.BRM.ICB" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Avoid increment/decrement operators inside other expressions" id="CS.BRM.IDOU" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="5;" authUrg="5;" cat="CS.BRM" desc="Keep file and type names consistent" id="CS.BRM.KFATNC" sev="3" total="5" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Use preferred names for primitive types" id="CS.BRM.PNPT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Do not use large if-clause with small else-clause that returns" id="CS.BRM.RFINE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Place 'default' as the last case of the 'switch' statement" id="CS.BRM.SWDEFLAST" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Always enclose using statement body with curly braces" id="CS.BRM.UCB" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Use null-coalescing operator ('??') instead conditional operator ('?')" id="CS.BRM.UCO" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Use keyword 'this' explicitly when accessing capitalized members" id="CS.BRM.ETK" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Avoid using the Strings.Chr() and Strings.ChrW() methods in C# code" id="CS.BRM.SCHR" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.CDD" desc="Avoid duplicate using statements" id="CS.CDD.DUPU" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.CMUG.PRU" desc="Follow standard pattern for property accessors" id="CS.CMUG.PRU.FSPP" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.EU" desc="Ensure that each enum has member with value 0" id="CS.EU.VZS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.EXCEPT" desc="Avoid clearing stack trace while rethrowing exceptions" id="CS.EXCEPT.RETHROW" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.IFD" desc="Do not pass a reference to 'this' from inside a destructor or dispose method" id="CS.IFD.DNPTHIS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="3;" authUrg="3;" cat="CS.INTER" desc="String literals should be internationalized" id="CS.INTER.ITT" sev="3" total="3" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.NG.VAR" desc="Follow proper naming convention for method variables and consts" id="CS.NG.VAR.PNCFV" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="CS.OOM" desc="Keep Maintainability Index above specified value" id="CS.OOM.MI" sev="1" total="1" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.OOM" desc="Avoid casts to concrete Collection types" id="CS.OOM.CAST2CONCRETE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid assignment within a condition" id="CS.PB.AWC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid conditional statements with empty bodies" id="CS.PB.CEB" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid try, catch, finally and using statements with empty bodies" id="CS.PB.EEB" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not use floating point variables as loop indices" id="CS.PB.FPLI" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid increment and decrement statements which have no effect" id="CS.PB.IDNE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid iteration statements with empty bodies" id="CS.PB.IEB" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Review '?:' operator for potential misuse" id="CS.PB.MCO" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not increment or decrement on the same variable over multiple nested 'for' loop statements" id="CS.PB.NSIVFLN" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not compare value types to null" id="CS.PB.VTNV" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid non-iterable loops" id="CS.PB.ANIL" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not use bitwise operators on bool operands" id="CS.PB.BITBOOL" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid confusing assignments to constructor arguments" id="CS.PB.CCA" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Check for 'null' when using 'as' operator" id="CS.PB.CNFA" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Provide 'default:' for each 'switch' statement" id="CS.PB.DEFSWITCH" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Use initializer variable in a condition of 'for' loop" id="CS.PB.IVFLC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Use initializer variable in 'for' loop iterator section" id="CS.PB.IVFLI" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid inaccessible classes and structs" id="CS.PB.NACC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not modify 'for' loop initializer variable in 'for' loop body" id="CS.PB.NSIVFLB" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid using the unary + operator" id="CS.PB.PUO" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Return empty collection instead of null" id="CS.PB.REA" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not use an integer outside the range of [0, 31] as the amount of a shift" id="CS.PB.SHIFT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid wrong indentation of blockless statements" id="CS.PB.WIBS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Prefer asynchronous calls to synchronized calls" id="CS.PB.INVOKE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB.USC" desc="Avoid unreachable code" id="CS.PB.USC.UC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB.USC" desc="Avoid unreachable code in condition" id="CS.PB.USC.CC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PE" desc="Verify FileDialog filter pattern" id="CS.PE.VFFP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.SEC" desc="Avoid 'unsafe' keyword" id="CS.SEC.AUK" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.SEC" desc="Do not re-create string from SecureString" id="CS.SEC.RSFSS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.SEC" desc="Use SecureString instead of String for password" id="CS.SEC.SSFP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.SERIAL" desc="Implement IDeserializationCallback for classes with NonSerialized fields" id="CS.SERIAL.IIDC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.SERIAL" desc="Do not store non-serializable objects in Session" id="CS.SERIAL.SOIS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.SERIAL" desc="Use the standard pattern while implementing ISerializable" id="CS.SERIAL.UIS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.TRS" desc="Avoid lock statements with empty bodies" id="CS.TRS.LEB" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.TRS" desc="Lock both when either set or get is locked for a property" id="CS.TRS.LOCKSETGET" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.TRS" desc="Always enclose lock statement body with curly braces" id="CS.TRS.LCB" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CT" desc="Avoid casting different domain types" id="CT.AVDDT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CT" desc="Avoid improper casting of the results of the 'NextDouble' method in the System.Random class" id="CT.RANDDOUBLE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CT" desc="Avoid explicit conversions of integrals to integrals of smaller size if the conversion may cause data truncation" id="CT.ECLSII" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CT" desc="Avoid explicit conversions between data types if the conversion may cause data loss or unexpected results" id="CT.ECLTS" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="ERR" desc="Do not derive from the SystemException class" id="ERR.DNDS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="ERR" desc="Do not provide additional methods or properties in exception classes" id="ERR.AAIE" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="ERR" desc="Exceptions should implement common constructors" id="ERR.EICC" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="ERR" desc="Use exception builder methods" id="ERR.UEBM" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Do not catch  'NullReferenceException''" id="EXCEPT.NCNRE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Avoid throwing 'Exception', 'SystemException' or 'ApplicationException'" id="EXCEPT.NTSAE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Avoid throwing exceptions from exceptions constructors" id="EXCEPT.TIEC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Avoid the use of &quot;catch&quot; on 'Exception', 'SystemException' or 'ApplicationException'" id="EXCEPT.NCSAE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="GC" desc="Avoid static collections which may lead to memory leakage" id="GC.ASC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="GC" desc="Dispose IDisposable local variable" id="GC.UFID" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="GC" desc="Do not explicitly call 'System.GC.Collect()' or 'System.GC.Collect(int)'" id="GC.DCGC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="GC" desc="Reuse calls to 'ClipBounds'" id="GC.RCCB" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Avoid calling Finalize directly" id="IFD.ACFD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Avoid throwing exceptions from the Dispose method implementations" id="IFD.ATED" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Avoid throwing exceptions from finalizers" id="IFD.ATEF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Method 'Dispose(bool)' in method 'Dispose()' should be called with true and in finalizer with false" id="IFD.DBDTFF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="IDisposable.Dispose() implementation should call specific methods" id="IFD.DCDSF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Always call Dispose(bool) in finalizer if IDisposable is implemented" id="IFD.DCID" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="In 'Dispose(bool)' use input parameter to check if it is actually disposing" id="IFD.DDFODB" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Provide finalizers in types which use resources" id="IFD.SRIF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Type that implements 'IDisposable' should contain and use field with information about dispose state" id="IFD.TICUFDS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Type that implements 'IDisposable' should implement 'Dispose(bool)' method" id="IFD.TIID" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Call the Dispose method of the base class from the Dispose method in the derived class" id="IFD.CBDM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Method 'Dispose()' should not be overridable" id="IFD.DNV" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Implement IDisposable when you provide a destructor (finalizer)" id="IFD.IDWF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Implement Dispose(bool) as a virtual and unsealed method if IDisposable is implemented" id="IFD.IDWBP" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Method 'Dispose(bool)' should be private or protected" id="IFD.MDPP" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Implement IDisposable in base class" id="IFD.IDBC" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Implement IDisposable in types which are using disposable resources" id="IFD.IDDR" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Implement IDisposable in types which are using system resources" id="IFD.SRII" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Use a domain specific name for the Dispose method" id="IFD.CDMN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="INTER" desc="Make sure that all string's from *.resx files are internationalized" id="INTER.RI" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="INTER" desc="Do not use directly ToLower(), ToUpper() string methods" id="INTER.TOLOWERTOUPPER" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for class names" id="NG.ABBR.CLASS" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for delegate names" id="NG.ABBR.DELEGEATE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for enum names" id="NG.ABBR.ENUM" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for event names" id="NG.ABBR.EVENT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for field names" id="NG.ABBR.FIELD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for interface names" id="NG.ABBR.INTERFACE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for method names" id="NG.ABBR.METHOD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for namespace names" id="NG.ABBR.NAMESPACE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for parameter names" id="NG.ABBR.PARAM" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for property names" id="NG.ABBR.PROPERTY" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ABBR" desc="Avoid abbreviations for struct (Structure in Visual Basic) names" id="NG.ABBR.STRUCT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in class names" id="NG.ACRO.CLASS" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in delegate names" id="NG.ACRO.DELEGATE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in enum names" id="NG.ACRO.ENUM" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in event names" id="NG.ACRO.EVENT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in field names" id="NG.ACRO.FIELD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in interface names" id="NG.ACRO.INTERFACE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in method names" id="NG.ACRO.METHOD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in namespace names" id="NG.ACRO.NAMESPACE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in parameter names" id="NG.ACRO.PARAM" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in property names" id="NG.ACRO.PROPERTY" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ACRO" desc="Use well known acronyms instead of lengthy phrases in struct (Structure in Visual Basic) names" id="NG.ACRO.STRUCT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.AN" desc="Use the suffix 'Attribute' while naming attribute classes" id="NG.AN.ACNEA" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.ALSN" desc="Avoid language-specific names for members" id="NG.ATNC.ALSN.MEMBER" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.ALSN" desc="Avoid language-specific names for parameters" id="NG.ATNC.ALSN.PARAM" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in class names" id="NG.ATNC.UUTN.CLASS" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in delegate names" id="NG.ATNC.UUTN.DELEGATE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in enum names" id="NG.ATNC.UUTN.ENUM" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in event names" id="NG.ATNC.UUTN.EVENT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in field names" id="NG.ATNC.UUTN.FIELD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in interface names" id="NG.ATNC.UUTN.INTERFACE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in method names" id="NG.ATNC.UUTN.METHOD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in namespace names" id="NG.ATNC.UUTN.NAMESPACE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in parameter names" id="NG.ATNC.UUTN.PARAM" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in property names" id="NG.ATNC.UUTN.PROPERTY" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ATNC.UUTN" desc="Prefer universal type names to language-specific ones in struct (Structure in Visual Basic) names" id="NG.ATNC.UUTN.STRUCT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.CAMEL" desc="Use Camel case for parameter name" id="NG.CAPSTY.CAMEL.PARAM" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.CAMEL" desc="Use Camel case for protected instance field name" id="NG.CAPSTY.CAMEL.PROTECTEDFIELD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for class names" id="NG.CAPSTY.PASCAL.CLASS" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for delegate type names" id="NG.CAPSTY.PASCAL.DELEGATE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for enum type names" id="NG.CAPSTY.PASCAL.ENUMTYPE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for enum value names" id="NG.CAPSTY.PASCAL.ENUMVALUE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for event names" id="NG.CAPSTY.PASCAL.EVENT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for exception class names" id="NG.CAPSTY.PASCAL.EXCEPTION" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for interface names" id="NG.CAPSTY.PASCAL.INTERFACE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for method names" id="NG.CAPSTY.PASCAL.METHOD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for namespace names" id="NG.CAPSTY.PASCAL.NAMESPACE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for property names" id="NG.CAPSTY.PASCAL.PROPERTY" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for public instance field names" id="NG.CAPSTY.PASCAL.PUBLICFIELD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for readonly static (Shared in Visual Basic) field names" id="NG.CAPSTY.PASCAL.ROFN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.PASCAL" desc="Use Pascal case for struct (Structure in Visual Basic) names" id="NG.CAPSTY.PASCAL.STRUCT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for class name" id="NG.CAPSTY.UPPER.CLS" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for delegate type name" id="NG.CAPSTY.UPPER.DTN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use uppercase for enum type name" id="NG.CAPSTY.UPPER.ENUMT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for enum value name" id="NG.CAPSTY.UPPER.ENUMV" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for event name" id="NG.CAPSTY.UPPER.EVENT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for exception class name" id="NG.CAPSTY.UPPER.EXC" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for interface name" id="NG.CAPSTY.UPPER.IFN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for method name" id="NG.CAPSTY.UPPER.MN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for namespace name" id="NG.CAPSTY.UPPER.NSN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for property name" id="NG.CAPSTY.UPPER.PROP" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for public instance field name" id="NG.CAPSTY.UPPER.PUBF" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for readonly static (Shared in Visual Basic) field name" id="NG.CAPSTY.UPPER.ROSF" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CAPSTY.UPPER" desc="Use upper case for struct (Structure in Visual Basic) name" id="NG.CAPSTY.UPPER.STRU" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CASE" desc="Do not create two methods whose names differ only by case" id="NG.CASE.CIMN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CASE" desc="Do not create two namespaces whose names differ only by case" id="NG.CASE.CINN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CASE" desc="Do not create a method which has parameters whose names differ only by case" id="NG.CASE.CIPAN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CASE" desc="Do not create two properties whose names differ only by case" id="NG.CASE.CIPRN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CASE" desc="Do not create two types whose names differ only by case" id="NG.CASE.CITN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CN" desc="Use the suffix 'Collection' while naming collection classes" id="NG.CN.CCSEC" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CN" desc="Use the suffix 'Exception' while naming exception classes" id="NG.CN.ECSEE" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CN" desc="Avoid class names which start with 'C'" id="NG.CN.ACNSC" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CN" desc="Avoid class names which start with 'I'" id="NG.CN.ACNSI" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.CN" desc="Avoid using underscores in class names" id="NG.CN.AUUCN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ETN" desc="Avoid enum names ending in 'Enum'" id="NG.ETN.AENEN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ETN" desc="Use a plural name for bit field enum" id="NG.ETN.UPNFBFN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.ETN" desc="Use a singular name for non-bit field enum" id="NG.ETN.USNNBF" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.EVN" desc="Use the suffix 'EventArgs' for naming EventArgs classes" id="NG.EVN.EACEEA" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.EVN" desc="Use the suffix 'EventHandler' for event handlers delegates names" id="NG.EVN.EHNEEH" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.EVN" desc="Use appropriate parameters for event handlers" id="NG.EVN.UAPEH" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.EVN" desc="Avoid using Before/After naming patterns" id="NG.EVN.AUBANP" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.EVN" desc="Avoid using prefixed event names" id="NG.EVN.AUPEN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.FN" desc="Follow proper naming conventions for field names" id="NG.FN.PNCFN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.IN" desc="Prefix interface names with 'I'" id="NG.IN.INSSI" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.IN" desc="Avoid using underscores in interface names" id="NG.IN.AUUIN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in class names" id="NG.MYST.CLASS" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in delegate names" id="NG.MYST.DELEGATE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in enum names" id="NG.MYST.ENUM" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in event names" id="NG.MYST.EVENT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in field names" id="NG.MYST.FIELD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in interface names" id="NG.MYST.INTERFACE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in method names" id="NG.MYST.METHOD" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in namespace names" id="NG.MYST.NAMESPACE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in parameter names" id="NG.MYST.PARAM" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in property names" id="NG.MYST.PROPERTY" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.MYST" desc="Avoid mysterious acronyms in struct (Structure in Visual Basic) names" id="NG.MYST.STRUCT" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.NN" desc="Avoid naming a class with the namespace name in which it is defined" id="NG.NN.ACNNC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.PN" desc="Use descriptive parameter names" id="NG.PN.UDPN" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.PN" desc="Avoid Hungarian notation for parameters" id="NG.PN.AHNFP" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.PRN" desc="Use the property's type name as part of the property name" id="NG.PRN.APNCTN" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.PRN" desc="Avoid Hungarian notation for property names" id="NG.PRN.AHNPN" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.SFN" desc="Use static property instead of public static field" id="NG.SFN.USPIPSF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.SFN" desc="Avoid hungarian notation for static (Shared in Visual Basic) fields" id="NG.SFN.AHNSF" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.COMMON" desc="Avoid names of commonly used .NET namespaces for naming classes" id="NG.WC.COMMON.ACNFC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.COMMON" desc="Avoid names of commonly used .NET namespaces for naming delegates" id="NG.WC.COMMON.ACNFD" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.COMMON" desc="Avoid names of commonly used .NET namespaces for naming enums" id="NG.WC.COMMON.ACNFE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.COMMON" desc="Avoid names of commonly used .NET namespaces for naming interfaces" id="NG.WC.COMMON.ACNFI" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.COMMON" desc="Avoid names of commonly used .NET namespaces for naming structs (Structure in Visual Basic)" id="NG.WC.COMMON.ACNFS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid class names that conflict with keywords" id="NG.WC.KEYWORD.CLASS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid delegate names that conflict with keywords" id="NG.WC.KEYWORD.DELEGATE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid enum names that conflict with keywords" id="NG.WC.KEYWORD.ENUM" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid event names that conflict with keywords" id="NG.WC.KEYWORD.EVENT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid field names that conflict with keywords" id="NG.WC.KEYWORD.FIELD" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid interface names that conflict with keywords" id="NG.WC.KEYWORD.INTERFACE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid method names that conflict with keywords" id="NG.WC.KEYWORD.METHOD" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid namespace names that conflict with keywords" id="NG.WC.KEYWORD.NAMESPACE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid parameter names that conflict with keywords" id="NG.WC.KEYWORD.PARAM" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid property names that conflict with keywords" id="NG.WC.KEYWORD.PROPERTY" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="NG.WC.KEYWORD" desc="Avoid struct (Structure in Visual Basic) names that conflict with keywords" id="NG.WC.KEYWORD.STRUCT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Follow the limit for Cyclomatic Complexity" id="OOM.CYCLO" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid a large number of protected data members per class" id="OOM.LNPTD" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid a large number of protected methods per class" id="OOM.LNPTM" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid a large number of private data members per class" id="OOM.LNPVD" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid a large number of private methods per class" id="OOM.LNPVM" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid too many function calls from a single function" id="OOM.FCSF" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid a large number of data members per class" id="OOM.LNDM" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid a large number of methods per class" id="OOM.LNMM" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid a large number of public data members per class" id="OOM.LNPBD" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid a large number of public methods per class" id="OOM.LNPBM" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid a large number of parameters per method" id="OOM.LNPM" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OOM" desc="Avoid too many levels of class inheritance" id="OOM.MLCI" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Avoid throwing exceptions from Equals methods" id="OPU.ATEE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Avoid throwing exceptions from GetHashCode methods" id="OPU.ATEGH" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Avoid throwing exceptions from implicit type conversion operators" id="OPU.ATEI" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Avoid throwing exceptions in equality operators" id="OPU.ATEOE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Compare parameter of Equals(Object) method to null" id="OPU.CPNEQ" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Override the GetHashCode method whenever you override the Equals method" id="OPU.IGHWE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Do not override operator equality in reference types" id="OPU.AOERT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Compare parameter type of Equals(Object) method" id="OPU.CPTEQ" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Override Equals when implementing IComparable" id="OPU.IEWI" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Override Equals when you override operator ==" id="OPU.IEWOE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Overload operators symmetrically" id="OPU.OOS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Do not use ReferenceEquals() on value types" id="OPU.REVT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Implement operator equality on value types" id="OPU.AOEVT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Compare parameter instance of Equals(Object) method" id="OPU.CPIEQ" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Implement Equals on value types" id="OPU.IEOVT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Do not override ReferenceEquals() method" id="OPU.NOREFEQUAL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Do not override static Object.Equals() method" id="OPU.NOSTATICEQUAL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Consider overriding comparison operators when implementing IComparable" id="OPU.ICOWI" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Provide an equivalent method when you define an operator" id="OPU.PAOS" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Implement operator equality with add and subtract" id="OPU.IOEAS" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Avoid infinite recursive method calls" id="PB.AIRC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Do not use value types as arguments of Monitor.Enter and Monitor.Exit" id="PB.ALVT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Avoid throwing exceptions from ToString method" id="PB.ATETS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Verify number of arguments in Composite Formatting feature" id="PB.CFF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Close file system resource on local variable" id="PB.CFSRLV" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Avoid internal API usage in extensions code" id="PB.IAU" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Make sure that published API does not change" id="PB.PAPI" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Don't use illegal regular expression" id="PB.REG" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Ensure static field is initialized before it is used" id="PB.SFAI" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Ensure that method body used in ThreadStart/ParameterizedThreadStart is wrapped with 'try/catch'" id="PB.TMTC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Do not use API of .NET framework which is not required by your application" id="PB.UAPIRF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Avoid using improper HTML or URL encoding in HttpResponse methods" id="PB.AIHUE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Do not compare floating-point types for equality" id="PB.DNCF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Use TryParse method instead Parse on primitive types" id="PB.DNUP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Use String.IsNullOrEmpty to check if a string is null or empty" id="PB.INOE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Do not check whether the result of 'String.IndexOf()' is positive or not" id="PB.STRIDX" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Avoid calling the Application.DoEvents() method" id="PB.ACDE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Use at least one method with an external effect on an object" id="PB.ALEEU" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Avoid System.Console 'Write()' or 'WriteLine()' statements" id="PB.CONSOLEWRITE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="2;" authUrg="0;" cat="PB" desc="Avoid empty methods" id="PB.EMPTYMETHODS" sev="3" total="2" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Do not overload 'Finalize()'" id="PB.OF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Review possible infinite recursive method calls" id="PB.RPIR" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Do not write to static fields from non-static methods" id="PB.STATICFLD" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Avoid 'throw' statements in 'finally' blocks" id="PB.THROWFIN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Do not declare &quot;public&quot; constructors in non-public classes" id="PB.PUBLICCTOR" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Avoid boxing/unboxing when possible" id="PB.BOXING" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Avoid suspicious octal escapes" id="PB.OCTESC" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB.II" desc="Do not leave code which throws System.NotImplementedException" id="PB.II.NIE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB.II" desc="Ensure that comments do not contain task tags" id="PB.II.TODO" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Do not attempt to deny the SkipVerification security permission" id="SEC.ADSVSP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Close database connection local variable" id="SEC.CDBCLV" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Close database resource local variable" id="SEC.CDRLV" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Do not change the RSA/DSA KeySize property" id="SEC.DNCCKS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Use OAEP with RSA algorithm encryption" id="SEC.UOWR" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Encapsulate all dangerous data sources with validation methods" id="SEC.VPPD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid using custom cryptographic algorithms" id="SEC.ACCA" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="4;" authUrg="4;" cat="SEC" desc="There should be no classes without namespace" id="SEC.ACWNS" sev="2" total="4" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid indexer wraparound in loops" id="SEC.AIWIL" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid using potentially dangerous methods" id="SEC.APDM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Do not use the Trace.Assert() method in production code" id="SEC.ATA" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Review closing database connection" id="SEC.CDBC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Review closing database resource" id="SEC.CDR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Do not use hardcoded string for password related parameters" id="SEC.HPW" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid using insecure algorithms for cryptography" id="SEC.ICA" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Ensure all exceptions are either logged with a standard logger or rethrown" id="SEC.LGE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Always specify absolute path to execute commands" id="SEC.PBRTE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Use System.Security.Cryptography.RandomNumberGenerator instead of System.Random" id="SEC.USSCR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Do not call the 'StackTrace' property of System.Exception" id="SEC.ACPST" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Always cleanup before an exception filtering method is invoked" id="SEC.ACWFB" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Inspect array fields that are declared as readonly" id="SEC.AFNRO" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Inspect calls to late-binding methods" id="SEC.ALBM" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid logging sensitive information" id="SEC.ALSI" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid public instance fields that could be accessed by external classes" id="SEC.APBIF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid using elevated privileges" id="SEC.AUEP" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Ensure that non CLS-compliant exceptions are being caught while catching all exceptions" id="SEC.CNCLSCE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Make pointer type fields private" id="SEC.HPTR" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="For security, avoid making your 'Clone()' method &quot; virtual &quot;" id="SEC.MCMF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Make static constructors private" id="SEC.MSCPV" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Do not lock using objects obtained with typeof(ClassName) / GetType(ClassName)" id="SEC.NLT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Seal methods which implement internal interfaces" id="SEC.SMIII" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Inspect calls to access environment variables" id="SEC.AASV" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid protected instance fields that could be accessed by untrusted classes" id="SEC.APTIF" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Inspect static fields that are not readonly and consider making them readonly" id="SEC.ASNRF" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid using public inner classes to prevent access from untrusted classes" id="SEC.AUIC" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Inspect uses of Millisecond on System.DateTime for security problems" id="SEC.AUMS" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Inspect uses of System.DateTime for security holes" id="SEC.AUSD" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Inspect modifications to security settings" id="SEC.DMSC" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Inspect calls to dynamically load libraries" id="SEC.ADLL" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Inspect calls to Process.Start()" id="SEC.AUPS" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Do not execute external code without integrity check" id="SEC.IREC" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Inspect instance fields of serializable types to make sure they will not expose sensitive information" id="SEC.SIF" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC.WEB" desc="Do not disable SSL certificate validation" id="SEC.WEB.DNICV" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC.WEB" desc="Ensure that authorization attributes match the controller" id="SEC.WEB.UAAMC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC.WEB" desc="Add authorization services to MVC Core" id="SEC.WEB.AAM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC.WEB" desc="Ensure sufficient session expiration" id="SEC.WEB.ISE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC.WEB" desc="Lock out the user after failed login attempts" id="SEC.WEB.LUAFLA" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="3;" authUrg="0;" cat="SEC.WEB" desc="Use authorization attributes on pages and controllers" id="SEC.WEB.UAA" sev="3" total="3" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC.WEB" desc="Use anti-forgery attributes on POST methods" id="SEC.WEB.VAFT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC.WEB" desc="Do not rely on reverse DNS resolution for security decisions" id="SEC.WEB.IIPHEU" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC.XXE" desc="Prevent DTD processing" id="SEC.XXE.PDTDP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Ensure base classes are marked Serializable" id="SERIAL.BASECLASS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Ensure entire graph of object can be serialized" id="SERIAL.MEMBERFIELDS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Mark ISerializable.GetObjectData with SecurityPermissionAttribute" id="SERIAL.MGODWSPA" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Call WriteObjectdata while implementing ISerializable.GetObjectData" id="SERIAL.GETOBJ" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Always provide deserialization constructor when ISerializable interface is implemented" id="SERIAL.IDC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Ensure exception classes are marked Serializable" id="SERIAL.EXCEPTIONCLASS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Ensure that readonly property which is a collection does not expose any sensitive information" id="SERIAL.XML.CSG" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Ensure that property of collection type implements Add method and indexer" id="SERIAL.XML.CTS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Make sure that type of serialized field/property is compatible with type used in XmlElementAttribute" id="SERIAL.XML.SOAFAP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Remove XmlAttribute from field and properties of comlex types" id="SERIAL.XML.ATTRIB" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Always provide default parameterless constructor in xml serialized class" id="SERIAL.XML.DCTOR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Do not use interface type for xml serialized property or field" id="SERIAL.XML.IFAPS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Make type used in xml serialization 'public'" id="SERIAL.XML.NPCS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Provide setter for xml serialized properties" id="SERIAL.XML.ROPS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SPR" desc="Ensure all sensitive function invocations are logged" id="SPR.ENFL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SPR" desc="Avoid hard coded connection strings" id="SPR.HARDCONN" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SPR" desc="Do not pass exception messages into output in order to prevent the application from leaking sensitive information" id="SPR.PEO" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SPR" desc="Avoid select * statements" id="SPR.SELSPLAT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SPR" desc="Do not call tainted methods outside the wrapper methods" id="SPR.VPPD" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SPR" desc="Ensure all 'dangerous' functions are called within wrapper methods" id="SPR.VPPDIMPL" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TRS" desc="Avoid calling Thread.Abort()" id="TRS.THREADABORT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TRS" desc="Avoid calling Thread.Sleep()" id="TRS.THREADSLEEP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.AU" desc="Attribute classes should be sealed (NotInheritable in Visual Basic)" id="TUG.AU.ACSS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.AU" desc="Avoid identical positional and named arguments" id="TUG.AU.AIPNA" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.AU" desc="Define a property for each positional argument" id="TUG.AU.APDC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.AU" desc="Specify attribute usage when defining a custom attribute" id="TUG.AU.SAU" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.AU" desc="Use flags attribute for bit field enum" id="TUG.AU.UFABFE" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.BCU" desc="Define a protected constructor in each abstract (MustInherit in Visual Basic) class" id="TUG.BCU.DPCA" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.BCU" desc="Use template methods" id="TUG.BCU.UTM" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.BCU" desc="Provide at least one implementation for each abstract (MustInherit in Visual Basic) class" id="TUG.BCU.PACI" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.DCU" desc="Do not hide inherited fields" id="TUG.DCU.DNHF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.EU" desc="Use enumerations instead of constant or static readonly fields" id="TUG.EU.UEISC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.EU" desc="Use Int32 as the base type of enums" id="TUG.EU.UIE" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.EU" desc="Avoid declaring events on enum" id="TUG.EU.ADEE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.EU" desc="Avoid declaring methods on enum" id="TUG.EU.ADME" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.EU" desc="Avoid declaring properties on enum" id="TUG.EU.ADPE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.EU" desc="Do not use non-integral enum" id="TUG.EU.DUNIE" sev="5" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.NTU" desc="Avoid using nested classes outside the nesting class" id="TUG.NTU.AUNCO" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.NTU" desc="Avoid unused nested private types" id="TUG.NTU.AUPNT" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.SCU" desc="Mark a class as sealed (NotInheritable in Visual Basic) if it will not be necessary to derive from it" id="TUG.SCU.USC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.SCU" desc="Mark a class as static if all members are static" id="TUG.SCU.MCS" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.SU" desc="Enforce custom attribute ImmutableAtomic" id="TUG.SU.IAS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.SU" desc="Avoid large structs (Structure in Visual Basic)" id="TUG.SU.ALS" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="VB.BRM" desc="Use string.Empty for empty strings" id="VB.BRM.ES" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="VB.BRM" desc="Use preferred names for primitive types" id="VB.BRM.PNPT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="VB.IFD" desc="Call the Finalize method of the base class from the finalizer in the derived class" id="VB.IFD.CBFM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="VB.PB" desc="Provide 'Case Else' for each 'Select Case' statement" id="VB.PB.DEFSWITCH" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="WPF" desc="Avoid controls out of bounds of a grid" id="WPF.GUG" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="WPF" desc="Make sure that all Static Resources have default public constructors" id="WPF.SRDC" sev="2" total="0" />
+         </RulesList>
+         <SeverityList>
+            <Severity authTot="2;" authUrg="1;" id="1" total="2" />
+            <Severity authTot="6;" authUrg="6;" id="2" total="6" />
+            <Severity authTot="39;" authUrg="31;" id="3" total="39" />
+            <Severity authTot="28;" authUrg="12;" id="4" total="28" />
+         </SeverityList>
+      </Rules>
+      
+  <Supps />
+
+      
+  <StdViols>
+    <StdViol msg="Appropriate header was found neither at the beginning nor at the end of file." ln="1" locFile="/webapp-hello-world/Ex1.cs" locStartln="1" sev="3" auth="pkruk" locRef="1" rule="BRM.SFH" lnHash="0" pkg="" rule.header="Always provide appropriate file header (copyright information, etc.)" tool=".test" lineHash="0" locStartPos="-1" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="591998010" locEndLn="2" goals="1," />
+    <StdViol msg="File name and containing class name is not consistent. Rename file to 'Example.cs' or provide class with 'Ex1' signature." ln="2" locFile="/webapp-hello-world/Ex1.cs" locStartln="2" sev="3" auth="pkruk" locRef="1" rule="CS.BRM.KFATNC" lnHash="1813639467" pkg="" rule.header="Keep file and type names consistent" tool=".test" lineHash="1813639467" locStartPos="7" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="591998010" locEndLn="3" goals="1," />
+    <StdViol msg="Consider declaring class Example inside a namespace" ln="2" locFile="/webapp-hello-world/Ex1.cs" locStartln="2" sev="2" auth="pkruk" locRef="1" rule="SEC.ACWNS" lnHash="1813639467" pkg="" rule.header="There should be no classes without namespace" tool=".test" lineHash="1813639467" locStartPos="13" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="20" locType="sr" urgent="true" hash="591998010" locEndLn="2" goals="1," />
+    <StdViol msg="Types should have comments, provide one for 'Example'." ln="2" locFile="/webapp-hello-world/Ex1.cs" locStartln="2" sev="4" auth="pkruk" locRef="1" rule="BRM.CMT.TSC" lnHash="1813639467" pkg="" rule.header="Types should be commented" tool=".test" lineHash="1813639467" locStartPos="13" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="20" locType="sr" urgent="true" hash="591998010" locEndLn="2" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="4" locFile="/webapp-hello-world/Ex1.cs" locStartln="4" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="1675607066" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="1675607066" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="3" locType="sr" urgent="true" hash="591998010" locEndLn="4" goals="1," />
+    <StdViol msg="Members should have comments, provide one for 'Bar'." ln="4" locFile="/webapp-hello-world/Ex1.cs" locStartln="4" sev="4" auth="pkruk" locRef="1" rule="BRM.CMT.MSC" lnHash="1675607066" pkg="" rule.header="Members should be commented" tool=".test" lineHash="1675607066" locStartPos="18" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="21" locType="sr" urgent="true" hash="591998010" locEndLn="4" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="5" locFile="/webapp-hello-world/Ex1.cs" locStartln="5" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="985179" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="985179" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="3" locType="sr" urgent="true" hash="591998010" locEndLn="5" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="6" locFile="/webapp-hello-world/Ex1.cs" locStartln="6" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="1320229135" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="1320229135" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="7" locType="sr" urgent="true" hash="591998010" locEndLn="6" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="7" locFile="/webapp-hello-world/Ex1.cs" locStartln="7" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="-782626725" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="-782626725" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="7" locType="sr" urgent="true" hash="591998010" locEndLn="7" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="8" locFile="/webapp-hello-world/Ex1.cs" locStartln="8" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="1321391300" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="1321391300" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="11" locType="sr" urgent="true" hash="591998010" locEndLn="8" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="9" locFile="/webapp-hello-world/Ex1.cs" locStartln="9" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="-782626723" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="-782626723" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="7" locType="sr" urgent="true" hash="591998010" locEndLn="9" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="10" locFile="/webapp-hello-world/Ex1.cs" locStartln="10" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="-1328712051" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="-1328712051" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="7" locType="sr" urgent="true" hash="591998010" locEndLn="10" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="11" locFile="/webapp-hello-world/Ex1.cs" locStartln="11" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="985181" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="985181" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="3" locType="sr" urgent="true" hash="591998010" locEndLn="11" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="12" locFile="/webapp-hello-world/Ex1.cs" locStartln="12" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="1607802658" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="1607802658" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="3" locType="sr" urgent="true" hash="591998010" locEndLn="12" goals="1," />
+    <StdViol msg="Members should have comments, provide one for 'Foo'." ln="12" locFile="/webapp-hello-world/Ex1.cs" locStartln="12" sev="4" auth="pkruk" locRef="1" rule="BRM.CMT.MSC" lnHash="1607802658" pkg="" rule.header="Members should be commented" tool=".test" lineHash="1607802658" locStartPos="17" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="20" locType="sr" urgent="true" hash="591998010" locEndLn="12" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="13" locFile="/webapp-hello-world/Ex1.cs" locStartln="13" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="985179" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="985179" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="3" locType="sr" urgent="true" hash="591998010" locEndLn="13" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="14" locFile="/webapp-hello-world/Ex1.cs" locStartln="14" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="-15348189" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="-15348189" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="7" locType="sr" urgent="true" hash="591998010" locEndLn="14" goals="1," />
+    <StdViol msg="Add 1 or remove 3 spaces" ln="15" locFile="/webapp-hello-world/Ex1.cs" locStartln="15" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="1726996474" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="1726996474" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="7" locType="sr" urgent="true" hash="591998010" locEndLn="15" goals="1," />
+    <FlowViol msg="&quot;example&quot; may possibly be null" ln="15" locFile="/webapp-hello-world/Ex1.cs" ruleSAFMsg="NullReferenceException point" FirstElSrcRngEndPos="23" auth="pkruk" FirstElSrcRngEndLn="8" rule="BD.EXCEPT.NR" FirstElSrcRngStartPos="11" lnHash="1726996474" ruleSCSCMsg="Source of null value" pkg="" FirstElSrcRngFile="/webapp-hello-world/Ex1.cs" rule.header="Avoid NullReferenceException" FirstElSrcRngStartln="8" locStartPos="14" analyzer="dottest" id="-14652898" lang="dotnet" locEndPos="32" locEndLn="15" goals="0," locStartln="15" sev="1" locRef="1" tool=".test" lineHash="1726996474" locType="sr" hash="591998010" causeLocRef="1">
+      <Props>
+        <Prop key="Tracked variables" val="Null value carrier" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-15348189" locType="sr" srcRnghash="591998010" locRef="1" srcRngFile="/webapp-hello-world/Ex1.cs" srcRngEndLn="14" ln="14" srcRngEndPos="34" srcRngStartln="14" srcRngStartPos="25" desc="Bar(a, b)" ElType="!" rngLn="14">
+          <ElDescList>
+            <ElDesc lineHash="1320229135" locType="sr" srcRnghash="591998010" locRef="1" srcRngFile="/webapp-hello-world/Ex1.cs" srcRngEndLn="9" ln="6" srcRngEndPos="8" srcRngStartln="6" srcRngStartPos="7" desc="if (a &lt; b)" ElType="." rngLn="6">
+              <Anns>
+                <Ann msg="Condition evaluation: (a &lt; b) (assuming true)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1321391300" locType="sr" srcRnghash="591998010" locRef="1" srcRngFile="/webapp-hello-world/Ex1.cs" srcRngEndLn="8" ln="8" srcRngEndPos="23" srcRngStartln="8" srcRngStartPos="11" desc="return null;" ElType=".C" rngLn="8">
+              <Props>
+                <Prop key="Tracked variables" val="&lt;returned value of Bar()>" />
+              </Props>
+              <Anns>
+                <Ann msg="Source of null value" kind="cause" />
+                <Ann msg="Null value carrier: &lt;returned value of Bar()>" kind="var" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="1726996474" locType="sr" srcRnghash="591998010" locRef="1" srcRngFile="/webapp-hello-world/Ex1.cs" srcRngEndLn="15" ln="15" srcRngEndPos="32" srcRngStartln="15" srcRngStartPos="14" desc="example.ToString()" ElType=".P" rngLn="15">
+          <Props>
+            <Prop key="Tracked variables" val="example" />
+          </Props>
+          <Anns>
+            <Ann msg="Null value carrier: example" kind="var" />
+            <Ann msg="NullReferenceException point" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="Add 1 or remove 3 spaces" ln="16" locFile="/webapp-hello-world/Ex1.cs" locStartln="16" sev="3" auth="pkruk" locRef="1" rule="BRM.SFT" lnHash="985181" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="985181" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="3" locType="sr" urgent="true" hash="591998010" locEndLn="16" goals="1," />
+    <StdViol msg="Appropriate header was found neither at the beginning nor at the end of file." ln="1" locFile="/webapp-hello-world/Ex2.cs" locStartln="1" sev="3" auth="pkruk" locRef="2" rule="BRM.SFH" lnHash="0" pkg="" rule.header="Always provide appropriate file header (copyright information, etc.)" tool=".test" lineHash="0" locStartPos="-1" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-466343805" locEndLn="2" goals="1," />
+    <StdViol msg="Change file name 'Ex2.cs' to one from following patterns: SearchUtil.cs, SearchHelper.cs, or provide class with 'Ex2' signature." ln="5" locFile="/webapp-hello-world/Ex2.cs" locStartln="5" sev="3" auth="pkruk" locRef="2" rule="CS.BRM.KFATNC" lnHash="736768617" pkg="" rule.header="Keep file and type names consistent" tool=".test" lineHash="736768617" locStartPos="7" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-466343805" locEndLn="6" goals="1," />
+    <StdViol msg="Consider declaring class SearchUtil inside a namespace" ln="5" locFile="/webapp-hello-world/Ex2.cs" locStartln="5" sev="2" auth="pkruk" locRef="2" rule="SEC.ACWNS" lnHash="736768617" pkg="" rule.header="There should be no classes without namespace" tool=".test" lineHash="736768617" locStartPos="13" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="23" locType="sr" urgent="true" hash="-466343805" locEndLn="5" goals="1," />
+    <StdViol msg="Types should have comments, provide one for 'SearchUtil'." ln="5" locFile="/webapp-hello-world/Ex2.cs" locStartln="5" sev="4" auth="pkruk" locRef="2" rule="BRM.CMT.TSC" lnHash="736768617" pkg="" rule.header="Types should be commented" tool=".test" lineHash="736768617" locStartPos="13" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="23" locType="sr" urgent="true" hash="-466343805" locEndLn="5" goals="1," />
+    <DupViol msg="Duplicated implementation of type 'SearchUtil' : '{ public static int BinarySearch&lt;T>(IList&lt;T> collection, ...'" ln="6" locFile="/webapp-hello-world/Ex2.cs" locStartln="6" sev="2" auth="pkruk" locRef="2" rule="CDD.DUPT" lnHash="123" rule.header="Avoid types duplication" tool=".test" lineHash="123" locStartPos="0" analyzer="com.parasoft.dottest.dupcode" lang="dotnet" locEndPos="1" locType="sr" urgent="true" hash="-466343805" locEndLn="31" goals="1,">
+      <ElDescList>
+        <ElDesc lineHash="123" locType="sr" srcRnghash="-466343805" locRef="2" srcRngFile="/webapp-hello-world/Ex2.cs" srcRngEndLn="31" ln="6" srcRngEndPos="1" srcRngStartln="6" srcRngStartPos="0" desc="[Line 6] Duplicated type in file: 'Ex2.cs'" rngLn="6" />
+        <ElDesc lineHash="123" locType="sr" srcRnghash="-466343805" locRef="2" srcRngFile="/webapp-hello-world/Ex2.cs" srcRngEndLn="58" ln="34" srcRngEndPos="1" srcRngStartln="34" srcRngStartPos="0" desc="[Line 34] Duplicated type in file: 'Ex2.cs'" rngLn="34" />
+      </ElDescList>
+    </DupViol>
+    <StdViol msg="Members should have comments, provide one for 'BinarySearch'." ln="7" locFile="/webapp-hello-world/Ex2.cs" locStartln="7" sev="4" auth="pkruk" locRef="2" rule="BRM.CMT.MSC" lnHash="1076526972" pkg="" rule.header="Members should be commented" tool=".test" lineHash="1076526972" locStartPos="22" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="34" locType="sr" hash="-466343805" locEndLn="7" goals="0," />
+    <StdViol msg="Line length exceeds 80 columns." ln="7" locFile="/webapp-hello-world/Ex2.cs" locStartln="7" sev="3" auth="pkruk" locRef="2" rule="BRM.MLL" lnHash="1076526972" pkg="" rule.header="Keep line length within predefined parameters" tool=".test" lineHash="1076526972" locStartPos="85" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="86" locType="sr" hash="-466343805" locEndLn="7" goals="0," />
+    <StdViol msg="Add 2 or remove 2 spaces" ln="8" locFile="/webapp-hello-world/Ex2.cs" locStartln="8" sev="3" auth="pkruk" locRef="2" rule="BRM.SFT" lnHash="-648044146" pkg="" rule.header="Use spaces for tabs/indentation" tool=".test" lineHash="-648044146" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="6" locType="sr" urgent="true" hash="-466343805" locEndLn="8" goals="1," />
+    <DupViol msg="Duplicated implementation of method: '{ // violation if (collection == null || collection.Count...'" ln="9" locFile="/webapp-hello-world/Ex2.cs" locStartln="9" sev="2" auth="pkruk" locRef="2" rule="CDD.DUPM" lnHash="1416424042" rule.header="Avoid method duplication" tool=".test" lineHash="1416424042" locStartPos="4" analyzer="com.parasoft.dottest.dupcode" lang="dotnet" locEndPos="5" locType="sr" urgent="true" hash="-466343805" locEndLn="30" goals="1,">
+      <ElDescList>
+        <ElDesc lineHash="1416424042" locType="sr" srcRnghash="-466343805" locRef="2" srcRngFile="/webapp-hello-world/Ex2.cs" srcRngEndLn="30" ln="9" srcRngEndPos="5" srcRngStartln="9" srcRngStartPos="4" desc="[Line 9] Duplicated method in file: 'Ex2.cs'" rngLn="9" />
+        <ElDesc lineHash="30537851" locType="sr" srcRnghash="-466343805" locRef="2" srcRngFile="/webapp-hello-world/Ex2.cs" srcRngEndLn="57" ln="36" srcRngEndPos="5" srcRngStartln="36" srcRngStartPos="4" desc="[Line 36] Duplicated method in file: 'Ex2.cs'" rngLn="36" />
+      </ElDescList>
+    </DupViol>
+    <DupViol msg="Duplicated code: if (collection == null || collection.Count == 0) { throw ..." ln="10" locFile="/webapp-hello-world/Ex2.cs" locStartln="10" sev="3" auth="pkruk" locRef="2" rule="CDD.DUPC" lnHash="-813610526" rule.header="Avoid code duplication" tool=".test" lineHash="-813610526" locStartPos="8" analyzer="com.parasoft.dottest.dupcode" lang="dotnet" locEndPos="9" locType="sr" urgent="true" hash="-466343805" locEndLn="29" goals="1,">
+      <ElDescList>
+        <ElDesc lineHash="-813610526" locType="sr" srcRnghash="-466343805" locRef="2" srcRngFile="/webapp-hello-world/Ex2.cs" srcRngEndLn="29" ln="10" srcRngEndPos="9" srcRngStartln="10" srcRngStartPos="8" desc="[Line 10] Duplicated code in file: 'Ex2.cs'" rngLn="10" />
+        <ElDesc lineHash="-813610495" locType="sr" srcRnghash="-466343805" locRef="2" srcRngFile="/webapp-hello-world/Ex2.cs" srcRngEndLn="56" ln="37" srcRngEndPos="9" srcRngStartln="37" srcRngStartPos="8" desc="[Line 37] Duplicated code in file: 'Ex2.cs'" rngLn="37" />
+      </ElDescList>
+    </DupViol>
+    <StdViol msg="Internationalize string &quot;Collection is either null[...]&quot; in member 'BinarySearch' in class 'SearchUtil'." ln="12" locFile="/webapp-hello-world/Ex2.cs" locStartln="12" sev="3" auth="pkruk" locRef="2" rule="CS.INTER.ITT" lnHash="-955937510" pkg="" rule.header="String literals should be internationalized" tool=".test" lineHash="-955937510" locStartPos="40" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="77" locType="sr" urgent="true" hash="-466343805" locEndLn="12" goals="1," />
+    <StdViol msg="Class 'SearchHelper' has a Maintainability Index of 71.019." ln="33" locFile="/webapp-hello-world/Ex2.cs" locStartln="33" sev="1" auth="pkruk" locRef="2" rule="CS.OOM.MI" lnHash="-1020898219" pkg="" rule.header="Keep Maintainability Index above specified value" tool=".test" lineHash="-1020898219" locStartPos="7" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-466343805" locEndLn="34" goals="1," />
+    <StdViol msg="Consider declaring class SearchHelper inside a namespace" ln="33" locFile="/webapp-hello-world/Ex2.cs" locStartln="33" sev="2" auth="pkruk" locRef="2" rule="SEC.ACWNS" lnHash="-1020898219" pkg="" rule.header="There should be no classes without namespace" tool=".test" lineHash="-1020898219" locStartPos="13" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="25" locType="sr" urgent="true" hash="-466343805" locEndLn="33" goals="1," />
+    <StdViol msg="Types should have comments, provide one for 'SearchHelper'." ln="33" locFile="/webapp-hello-world/Ex2.cs" locStartln="33" sev="4" auth="pkruk" locRef="2" rule="BRM.CMT.TSC" lnHash="-1020898219" pkg="" rule.header="Types should be commented" tool=".test" lineHash="-1020898219" locStartPos="13" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="25" locType="sr" urgent="true" hash="-466343805" locEndLn="33" goals="1," />
+    <StdViol msg="Members should have comments, provide one for 'BinarySearch'." ln="35" locFile="/webapp-hello-world/Ex2.cs" locStartln="35" sev="4" auth="pkruk" locRef="2" rule="BRM.CMT.MSC" lnHash="855038386" pkg="" rule.header="Members should be commented" tool=".test" lineHash="855038386" locStartPos="22" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="34" locType="sr" hash="-466343805" locEndLn="35" goals="0," />
+    <StdViol msg="Line length exceeds 80 columns." ln="35" locFile="/webapp-hello-world/Ex2.cs" locStartln="35" sev="3" auth="pkruk" locRef="2" rule="BRM.MLL" lnHash="855038386" pkg="" rule.header="Keep line length within predefined parameters" tool=".test" lineHash="855038386" locStartPos="110" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="111" locType="sr" hash="-466343805" locEndLn="35" goals="0," />
+    <StdViol msg="Internationalize string &quot;Collection is null or empty.&quot; in member 'BinarySearch' in class 'SearchHelper'." ln="39" locFile="/webapp-hello-world/Ex2.cs" locStartln="39" sev="3" auth="pkruk" locRef="2" rule="CS.INTER.ITT" lnHash="-351732631" pkg="" rule.header="String literals should be internationalized" tool=".test" lineHash="-351732631" locStartPos="40" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="70" locType="sr" urgent="true" hash="-466343805" locEndLn="39" goals="1," />
+    <StdViol msg="Appropriate header was found neither at the beginning nor at the end of file." ln="1" locFile="/webapp-hello-world/Ex3.cs" locStartln="1" sev="3" auth="pkruk" locRef="3" rule="BRM.SFH" lnHash="0" pkg="" rule.header="Always provide appropriate file header (copyright information, etc.)" tool=".test" lineHash="0" locStartPos="-1" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-117518605" locEndLn="2" goals="1," />
+    <StdViol msg="Types should have comments, provide one for 'Ex3'." ln="2" locFile="/webapp-hello-world/Ex3.cs" locStartln="2" sev="4" auth="pkruk" locRef="3" rule="BRM.CMT.TSC" lnHash="1883402812" pkg="" rule.header="Types should be commented" tool=".test" lineHash="1883402812" locStartPos="13" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="16" locType="sr" urgent="true" hash="-117518605" locEndLn="2" goals="1," />
+    <StdViol msg="Consider declaring class Ex3 inside a namespace" ln="2" locFile="/webapp-hello-world/Ex3.cs" locStartln="2" sev="2" auth="pkruk" locRef="3" rule="SEC.ACWNS" lnHash="1883402812" pkg="" rule.header="There should be no classes without namespace" tool=".test" lineHash="1883402812" locStartPos="13" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="16" locType="sr" urgent="true" hash="-117518605" locEndLn="2" goals="1," />
+    <StdViol msg="Members should have comments, provide one for 'Test2'." ln="3" locFile="/webapp-hello-world/Ex3.cs" locStartln="3" sev="4" auth="pkruk" locRef="3" rule="BRM.CMT.MSC" lnHash="-503615160" pkg="" rule.header="Members should be commented" tool=".test" lineHash="-503615160" locStartPos="15" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="20" locType="sr" urgent="true" hash="-117518605" locEndLn="3" goals="1," />
+    <StdViol msg="Appropriate header was found neither at the beginning nor at the end of file." ln="1" locFile="/webapp-hello-world/Program.cs" locStartln="1" sev="3" auth="pkruk" locRef="4" rule="BRM.SFH" lnHash="526639152" pkg="" rule.header="Always provide appropriate file header (copyright information, etc.)" tool=".test" lineHash="526639152" locStartPos="-1" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-931165736" locEndLn="2" goals="1," />
+    <StdViol msg="Using directive 'using Microsoft.AspNetCore.Hosting' is out of order." ln="5" locFile="/webapp-hello-world/Program.cs" locStartln="5" sev="4" auth="pkruk" locRef="4" rule="CS.USO" lnHash="1149721589" pkg="" rule.header="Put using statements in alphabetical order" tool=".test" lineHash="1149721589" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-931165736" locEndLn="6" goals="1," />
+    <StdViol msg="Types should have comments, provide one for 'Program'." ln="12" locFile="/webapp-hello-world/Program.cs" locStartln="12" sev="4" auth="pkruk" locRef="4" rule="BRM.CMT.TSC" lnHash="-759232955" pkg="webapp_hello_world" rule.header="Types should be commented" tool=".test" lineHash="-759232955" locStartPos="17" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="24" locType="sr" hash="-931165736" locEndLn="12" goals="0," />
+    <StdViol msg="Members should have comments, provide one for 'Main'." ln="14" locFile="/webapp-hello-world/Program.cs" locStartln="14" sev="4" auth="pkruk" locRef="4" rule="BRM.CMT.MSC" lnHash="1232427549" pkg="webapp_hello_world" rule.header="Members should be commented" tool=".test" lineHash="1232427549" locStartPos="27" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="31" locType="sr" hash="-931165736" locEndLn="14" goals="0," />
+    <StdViol msg="Members should have comments, provide one for 'CreateHostBuilder'." ln="19" locFile="/webapp-hello-world/Program.cs" locStartln="19" sev="4" auth="pkruk" locRef="4" rule="BRM.CMT.MSC" lnHash="1611396406" pkg="webapp_hello_world" rule.header="Members should be commented" tool=".test" lineHash="1611396406" locStartPos="35" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="52" locType="sr" hash="-931165736" locEndLn="19" goals="0," />
+    <StdViol msg="Appropriate header was found neither at the beginning nor at the end of file." ln="1" locFile="/webapp-hello-world/Startup.cs" locStartln="1" sev="3" auth="pkruk" locRef="5" rule="BRM.SFH" lnHash="526639152" pkg="" rule.header="Always provide appropriate file header (copyright information, etc.)" tool=".test" lineHash="526639152" locStartPos="-1" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-115071264" locEndLn="2" goals="1," />
+    <StdViol msg="Using directive 'using Microsoft.AspNetCore.Builder' is out of order." ln="5" locFile="/webapp-hello-world/Startup.cs" locStartln="5" sev="4" auth="pkruk" locRef="5" rule="CS.USO" lnHash="19012020" pkg="" rule.header="Put using statements in alphabetical order" tool=".test" lineHash="19012020" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-115071264" locEndLn="6" goals="1," />
+    <StdViol msg="Types should have comments, provide one for 'Startup'." ln="14" locFile="/webapp-hello-world/Startup.cs" locStartln="14" sev="4" auth="pkruk" locRef="5" rule="BRM.CMT.TSC" lnHash="1947937342" pkg="webapp_hello_world" rule.header="Types should be commented" tool=".test" lineHash="1947937342" locStartPos="17" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="24" locType="sr" hash="-115071264" locEndLn="14" goals="0," />
+    <StdViol msg="Members should have comments, provide one for 'Startup'." ln="16" locFile="/webapp-hello-world/Startup.cs" locStartln="16" sev="4" auth="pkruk" locRef="5" rule="BRM.CMT.MSC" lnHash="1854544196" pkg="webapp_hello_world" rule.header="Members should be commented" tool=".test" lineHash="1854544196" locStartPos="15" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="22" locType="sr" hash="-115071264" locEndLn="16" goals="0," />
+    <StdViol msg="Internationalize string &quot;/Error&quot; in member 'Configure' in class 'Startup'." ln="38" locFile="/webapp-hello-world/Startup.cs" locStartln="38" sev="3" auth="pkruk" locRef="5" rule="CS.INTER.ITT" lnHash="-1403409396" pkg="webapp_hello_world" rule.header="String literals should be internationalized" tool=".test" lineHash="-1403409396" locStartPos="40" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="48" locType="sr" urgent="true" hash="-115071264" locEndLn="38" goals="1," />
+    <StdViol msg="Appropriate header was found neither at the beginning nor at the end of file." ln="1" locFile="/webapp-hello-world/Pages/Error.cshtml.cs" locStartln="1" sev="3" auth="pkruk" locRef="6" rule="BRM.SFH" lnHash="526639152" pkg="" rule.header="Always provide appropriate file header (copyright information, etc.)" tool=".test" lineHash="526639152" locStartPos="-1" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="206116152" locEndLn="2" goals="1," />
+    <StdViol msg="Using directive 'using Microsoft.AspNetCore.Mvc' is out of order." ln="6" locFile="/webapp-hello-world/Pages/Error.cshtml.cs" locStartln="6" sev="4" auth="pkruk" locRef="6" rule="CS.USO" lnHash="-523082923" pkg="" rule.header="Put using statements in alphabetical order" tool=".test" lineHash="-523082923" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="206116152" locEndLn="7" goals="1," />
+    <StdViol msg="Line length exceeds 80 columns." ln="12" locFile="/webapp-hello-world/Pages/Error.cshtml.cs" locStartln="12" sev="3" auth="pkruk" locRef="6" rule="BRM.MLL" lnHash="152351552" pkg="webapp_hello_world.Pages" rule.header="Keep line length within predefined parameters" tool=".test" lineHash="152351552" locStartPos="87" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="88" locType="sr" hash="206116152" locEndLn="12" goals="0," />
+    <StdViol msg="File name and containing class name is not consistent. Rename file to 'ErrorModel.cs' or provide partial class with 'Error' signature." ln="14" locFile="/webapp-hello-world/Pages/Error.cshtml.cs" locStartln="14" sev="3" auth="pkruk" locRef="6" rule="CS.BRM.KFATNC" lnHash="1024334804" pkg="webapp_hello_world.Pages" rule.header="Keep file and type names consistent" tool=".test" lineHash="1024334804" locStartPos="11" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="206116152" locEndLn="15" goals="1," />
+    <StdViol msg="Types should have comments, provide one for 'ErrorModel'." ln="14" locFile="/webapp-hello-world/Pages/Error.cshtml.cs" locStartln="14" sev="4" auth="pkruk" locRef="6" rule="BRM.CMT.TSC" lnHash="1024334804" pkg="webapp_hello_world.Pages" rule.header="Types should be commented" tool=".test" lineHash="1024334804" locStartPos="17" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="27" locType="sr" hash="206116152" locEndLn="14" goals="0," />
+    <StdViol msg="Apply an authorization attribute on the ErrorModel class" ln="14" locFile="/webapp-hello-world/Pages/Error.cshtml.cs" locStartln="14" sev="3" auth="pkruk" locRef="6" rule="SEC.WEB.UAA" lnHash="1024334804" pkg="webapp_hello_world.Pages" rule.header="Use authorization attributes on pages and controllers" tool=".test" lineHash="1024334804" locStartPos="17" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="27" locType="sr" hash="206116152" locEndLn="14" goals="0," />
+    <StdViol msg="Members should have comments, provide one for 'ErrorModel'." ln="22" locFile="/webapp-hello-world/Pages/Error.cshtml.cs" locStartln="22" sev="4" auth="pkruk" locRef="6" rule="BRM.CMT.MSC" lnHash="1736084419" pkg="webapp_hello_world.Pages" rule.header="Members should be commented" tool=".test" lineHash="1736084419" locStartPos="15" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="25" locType="sr" hash="206116152" locEndLn="22" goals="0," />
+    <StdViol msg="Members should have comments, provide one for 'OnGet'." ln="27" locFile="/webapp-hello-world/Pages/Error.cshtml.cs" locStartln="27" sev="4" auth="pkruk" locRef="6" rule="BRM.CMT.MSC" lnHash="815635939" pkg="webapp_hello_world.Pages" rule.header="Members should be commented" tool=".test" lineHash="815635939" locStartPos="20" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="25" locType="sr" hash="206116152" locEndLn="27" goals="0," />
+    <StdViol msg="Appropriate header was found neither at the beginning nor at the end of file." ln="1" locFile="/webapp-hello-world/Pages/Index.cshtml.cs" locStartln="1" sev="3" auth="pkruk" locRef="7" rule="BRM.SFH" lnHash="-565047683" pkg="" rule.header="Always provide appropriate file header (copyright information, etc.)" tool=".test" lineHash="-565047683" locStartPos="-1" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-1382259625" locEndLn="2" goals="1," />
+    <StdViol msg="Using directive 'using Microsoft.AspNetCore.Mvc' is out of order." ln="5" locFile="/webapp-hello-world/Pages/Index.cshtml.cs" locStartln="5" sev="4" auth="pkruk" locRef="7" rule="CS.USO" lnHash="-523082923" pkg="" rule.header="Put using statements in alphabetical order" tool=".test" lineHash="-523082923" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-1382259625" locEndLn="6" goals="1," />
+    <StdViol msg="File name and containing class name is not consistent. Rename file to 'IndexModel.cs' or provide partial class with 'Index' signature." ln="11" locFile="/webapp-hello-world/Pages/Index.cshtml.cs" locStartln="11" sev="3" auth="pkruk" locRef="7" rule="CS.BRM.KFATNC" lnHash="212529738" pkg="webapp_hello_world.Pages" rule.header="Keep file and type names consistent" tool=".test" lineHash="212529738" locStartPos="11" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-1382259625" locEndLn="12" goals="1," />
+    <StdViol msg="Types should have comments, provide one for 'IndexModel'." ln="11" locFile="/webapp-hello-world/Pages/Index.cshtml.cs" locStartln="11" sev="4" auth="pkruk" locRef="7" rule="BRM.CMT.TSC" lnHash="212529738" pkg="webapp_hello_world.Pages" rule.header="Types should be commented" tool=".test" lineHash="212529738" locStartPos="17" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="27" locType="sr" hash="-1382259625" locEndLn="11" goals="0," />
+    <StdViol msg="Apply an authorization attribute on the IndexModel class" ln="11" locFile="/webapp-hello-world/Pages/Index.cshtml.cs" locStartln="11" sev="3" auth="pkruk" locRef="7" rule="SEC.WEB.UAA" lnHash="212529738" pkg="webapp_hello_world.Pages" rule.header="Use authorization attributes on pages and controllers" tool=".test" lineHash="212529738" locStartPos="17" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="27" locType="sr" hash="-1382259625" locEndLn="11" goals="0," />
+    <StdViol msg="Members should have comments, provide one for 'IndexModel'." ln="15" locFile="/webapp-hello-world/Pages/Index.cshtml.cs" locStartln="15" sev="4" auth="pkruk" locRef="7" rule="BRM.CMT.MSC" lnHash="-1283366013" pkg="webapp_hello_world.Pages" rule.header="Members should be commented" tool=".test" lineHash="-1283366013" locStartPos="15" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="25" locType="sr" hash="-1382259625" locEndLn="15" goals="0," />
+    <StdViol msg="Members should have comments, provide one for 'OnGet'." ln="20" locFile="/webapp-hello-world/Pages/Index.cshtml.cs" locStartln="20" sev="4" auth="pkruk" locRef="7" rule="BRM.CMT.MSC" lnHash="815635939" pkg="webapp_hello_world.Pages" rule.header="Members should be commented" tool=".test" lineHash="815635939" locStartPos="20" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="25" locType="sr" hash="-1382259625" locEndLn="20" goals="0," />
+    <StdViol msg="Avoid empty methods" ln="20" locFile="/webapp-hello-world/Pages/Index.cshtml.cs" locStartln="20" sev="3" auth="pkruk" locRef="7" rule="PB.EMPTYMETHODS" lnHash="815635939" pkg="webapp_hello_world.Pages" rule.header="Avoid empty methods" tool=".test" lineHash="815635939" locStartPos="20" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="25" locType="sr" hash="-1382259625" locEndLn="20" goals="0," />
+    <StdViol msg="Appropriate header was found neither at the beginning nor at the end of file." ln="1" locFile="/webapp-hello-world/Pages/Privacy.cshtml.cs" locStartln="1" sev="3" auth="pkruk" locRef="8" rule="BRM.SFH" lnHash="-565047683" pkg="" rule.header="Always provide appropriate file header (copyright information, etc.)" tool=".test" lineHash="-565047683" locStartPos="-1" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-85165395" locEndLn="2" goals="1," />
+    <StdViol msg="Using directive 'using Microsoft.AspNetCore.Mvc' is out of order." ln="5" locFile="/webapp-hello-world/Pages/Privacy.cshtml.cs" locStartln="5" sev="4" auth="pkruk" locRef="8" rule="CS.USO" lnHash="-523082923" pkg="" rule.header="Put using statements in alphabetical order" tool=".test" lineHash="-523082923" locStartPos="0" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-85165395" locEndLn="6" goals="1," />
+    <StdViol msg="File name and containing class name is not consistent. Rename file to 'PrivacyModel.cs' or provide partial class with 'Privacy' signature." ln="11" locFile="/webapp-hello-world/Pages/Privacy.cshtml.cs" locStartln="11" sev="3" auth="pkruk" locRef="8" rule="CS.BRM.KFATNC" lnHash="1562898068" pkg="webapp_hello_world.Pages" rule.header="Keep file and type names consistent" tool=".test" lineHash="1562898068" locStartPos="11" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="-1" locType="sr" urgent="true" hash="-85165395" locEndLn="12" goals="1," />
+    <StdViol msg="Apply an authorization attribute on the PrivacyModel class" ln="11" locFile="/webapp-hello-world/Pages/Privacy.cshtml.cs" locStartln="11" sev="3" auth="pkruk" locRef="8" rule="SEC.WEB.UAA" lnHash="1562898068" pkg="webapp_hello_world.Pages" rule.header="Use authorization attributes on pages and controllers" tool=".test" lineHash="1562898068" locStartPos="17" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="29" locType="sr" hash="-85165395" locEndLn="11" goals="0," />
+    <StdViol msg="Types should have comments, provide one for 'PrivacyModel'." ln="11" locFile="/webapp-hello-world/Pages/Privacy.cshtml.cs" locStartln="11" sev="4" auth="pkruk" locRef="8" rule="BRM.CMT.TSC" lnHash="1562898068" pkg="webapp_hello_world.Pages" rule.header="Types should be commented" tool=".test" lineHash="1562898068" locStartPos="17" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="29" locType="sr" hash="-85165395" locEndLn="11" goals="0," />
+    <StdViol msg="Members should have comments, provide one for 'PrivacyModel'." ln="15" locFile="/webapp-hello-world/Pages/Privacy.cshtml.cs" locStartln="15" sev="4" auth="pkruk" locRef="8" rule="BRM.CMT.MSC" lnHash="-1364356413" pkg="webapp_hello_world.Pages" rule.header="Members should be commented" tool=".test" lineHash="-1364356413" locStartPos="15" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="27" locType="sr" hash="-85165395" locEndLn="15" goals="0," />
+    <StdViol msg="Avoid empty methods" ln="20" locFile="/webapp-hello-world/Pages/Privacy.cshtml.cs" locStartln="20" sev="3" auth="pkruk" locRef="8" rule="PB.EMPTYMETHODS" lnHash="815635939" pkg="webapp_hello_world.Pages" rule.header="Avoid empty methods" tool=".test" lineHash="815635939" locStartPos="20" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="25" locType="sr" hash="-85165395" locEndLn="20" goals="0," />
+    <StdViol msg="Members should have comments, provide one for 'OnGet'." ln="20" locFile="/webapp-hello-world/Pages/Privacy.cshtml.cs" locStartln="20" sev="4" auth="pkruk" locRef="8" rule="BRM.CMT.MSC" lnHash="815635939" pkg="webapp_hello_world.Pages" rule.header="Members should be commented" tool=".test" lineHash="815635939" locStartPos="20" analyzer="com.parasoft.dottest" lang="dotnet" locEndPos="25" locType="sr" hash="-85165395" locEndLn="20" goals="0," />
+  </StdViols>
+
+      <TestedFilesDetails>
+         <Total name="Total (Suppressed)" supp="0" total="75">
+            <Project id="webapp-hello-world" name="webapp-hello-world" supp="0" total="75">
+               <Res loc="/webapp-hello-world/Ex1.cs" locRef="1" locType="sr" name="Ex1.cs" supp="0" total="20" />
+               <Res loc="/webapp-hello-world/Ex2.cs" locRef="2" locType="sr" name="Ex2.cs" supp="0" total="17" />
+               <Res loc="/webapp-hello-world/Ex3.cs" locRef="3" locType="sr" name="Ex3.cs" supp="0" total="4" />
+               <Res loc="/webapp-hello-world/Program.cs" locRef="4" locType="sr" name="Program.cs" supp="0" total="5" />
+               <Res loc="/webapp-hello-world/Startup.cs" locRef="5" locType="sr" name="Startup.cs" supp="0" total="5" />
+               <Res name="Pages" supp="0" total="24">
+                  <Res loc="/webapp-hello-world/Pages/Error.cshtml.cs" locRef="6" locType="sr" name="Error.cshtml.cs" supp="0" total="8" />
+                  <Res loc="/webapp-hello-world/Pages/Index.cshtml.cs" locRef="7" locType="sr" name="Index.cshtml.cs" supp="0" total="8" />
+                  <Res loc="/webapp-hello-world/Pages/Privacy.cshtml.cs" locRef="8" locType="sr" name="Privacy.cshtml.cs" supp="0" total="8" />
+               </Res>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>
